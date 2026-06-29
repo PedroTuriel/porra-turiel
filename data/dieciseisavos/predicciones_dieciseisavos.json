@@ -1,0 +1,1500 @@
+{
+  "round": "R32",
+  "participants": [
+    {
+      "mote": "Maru",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Pedro Porro (Tottenham Hotspur)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Costa de Marfil",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Senegal",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Argelia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Ghana",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Guru",
+      "spain": {
+        "first_spain_goal": 3,
+        "first_spain_sub": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_mvp": "Rodrigo Hernández (Manchester City FC)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Senegal",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Argelia",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Amatxi",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Lamine Yamal (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Iago Aspas",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Álex Baena (Atlético de Madrid)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "La sevillana",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Dani Olmo (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Japón",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Costa de Marfil",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 0,
+          "predicted_decided_in": "penalties"
+        }
+      ]
+    },
+    {
+      "mote": "Moni",
+      "spain": {
+        "first_spain_goal": 1,
+        "first_spain_sub": "Martín Zubimendi (Arsenal FC)",
+        "spain_mvp": "Ferran Torres (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Países Bajos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Bosnia Herzegovina",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Croacia",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Argelia",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Tim Payne",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Mikel Merino (Arsenal FC)",
+        "spain_mvp": "Pedri González (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Senegal",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Andrés (Iniesta de mi vida!)",
+      "spain": {
+        "first_spain_goal": 3,
+        "first_spain_sub": "Nico Williams (Athletic Club)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Países Bajos",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Croacia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Australia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Camavinga",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Ferran Torres (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Países Bajos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Australia",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "La ELEgida😌🏆",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Ferran Torres (FC Barcelona)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Países Bajos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Costa de Marfil",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Bosnia Herzegovina",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 5,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Australia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Tikitaka Humano",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Marc Cucurella (Chelsea FC)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Marruecos",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Costa de Marfil",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Senegal",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Bosnia Herzegovina",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Australia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Esteban de Lezo",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Pedri González (FC Barcelona)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Países Bajos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Costa de Marfil",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Bélgica",
+          "predicted_total_goals_90": 0,
+          "predicted_decided_in": "penalties"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        }
+      ]
+    },
+    {
+      "mote": "Tobigol",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Pau Cubarsí (FC Barcelona)",
+        "spain_mvp": "Marc Cucurella (Chelsea FC)"
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Japón",
+          "predicted_winner": "Brasil",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "predicted_winner": "Alemania",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Países Bajos",
+          "away_team": "Marruecos",
+          "predicted_winner": "Países Bajos",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Costa de Marfil",
+          "away_team": "Noruega",
+          "predicted_winner": "Noruega",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Francia",
+          "away_team": "Suecia",
+          "predicted_winner": "Francia",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "México",
+          "away_team": "Ecuador",
+          "predicted_winner": "México",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Inglaterra",
+          "away_team": "R.D. del Congo",
+          "predicted_winner": "Inglaterra",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Bélgica",
+          "away_team": "Senegal",
+          "predicted_winner": "Senegal",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "extra_time"
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bosnia Herzegovina",
+          "predicted_winner": "Estados Unidos",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Austria",
+          "predicted_winner": "España",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "predicted_winner": "Portugal",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "predicted_winner": "Suiza",
+          "predicted_total_goals_90": 1,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "predicted_winner": "Egipto",
+          "predicted_total_goals_90": 3,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Cabo Verde",
+          "predicted_winner": "Argentina",
+          "predicted_total_goals_90": 4,
+          "predicted_decided_in": "90"
+        },
+        {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "predicted_winner": "Colombia",
+          "predicted_total_goals_90": 2,
+          "predicted_decided_in": "90"
+        }
+      ]
+    }
+  ]
+}

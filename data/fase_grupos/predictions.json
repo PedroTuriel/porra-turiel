@@ -1,0 +1,5506 @@
+{
+  "generated_at": "2026-06-16 10:53:52",
+  "source_file": "Predicciones - Porra.xlsx",
+  "participants": [
+    {
+      "name": "Marianin.Jr",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 2,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 3,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Ferran Torres (FC Barcelona)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 8,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "RaúlSelección",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 4,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 3,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 5,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "Moni",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Qatar",
+            "original_team": "Catar"
+          },
+          {
+            "position": 4,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 2,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 3,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          },
+          {
+            "position": 4,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Ferran Torres (FC Barcelona)",
+        "top_assistant": "Pedri González (FC Barcelona)",
+        "goals_for": 10,
+        "goals_against": 4
+      }
+    },
+    {
+      "name": "Mattias",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 2,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 3,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 3,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 2,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 3,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          },
+          {
+            "position": 4,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Lamine Yamal (FC Barcelona)",
+        "top_assistant": "Dani Olmo (FC Barcelona)",
+        "goals_for": 10,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "Maru",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 2,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 3,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 4,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 3,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Haiti",
+            "original_team": "Haití"
+          },
+          {
+            "position": 4,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 2,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 3,
+            "team": "Australia",
+            "original_team": "Australia"
+          },
+          {
+            "position": 4,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 3,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          },
+          {
+            "position": 4,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Pedri González (FC Barcelona)",
+        "goals_for": 8,
+        "goals_against": 3
+      }
+    },
+    {
+      "name": "Guru",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Qatar",
+            "original_team": "Catar"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Canada",
+            "original_team": "Canada"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "Australia",
+            "original_team": "Australia"
+          },
+          {
+            "position": 4,
+            "team": "United States",
+            "original_team": "EE.UU."
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          },
+          {
+            "position": 3,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 4,
+            "team": "Iran",
+            "original_team": "Irán"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Ferran Torres (FC Barcelona)",
+        "top_assistant": "Álex Baena (Atlético de Madrid)",
+        "goals_for": 4,
+        "goals_against": 5
+      }
+    },
+    {
+      "name": "La sevillana",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 2,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 3,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 2,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 3,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Iraq",
+            "original_team": "Irak"
+          },
+          {
+            "position": 4,
+            "team": "Norway",
+            "original_team": "Noruega"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 3,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 2,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Nico Williams (Athletic Club)",
+        "top_assistant": "Pedri González (FC Barcelona)",
+        "goals_for": 5,
+        "goals_against": 3
+      }
+    },
+    {
+      "name": "Iago Aspas",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 2,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 3,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 9,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "Amatxi",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 3,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 4,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 2,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 3,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 2,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          },
+          {
+            "position": 4,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 6,
+        "goals_against": 4
+      }
+    },
+    {
+      "name": "Tim Payne",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Qatar",
+            "original_team": "Catar"
+          },
+          {
+            "position": 3,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 4,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 3,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 3,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Pedri González (FC Barcelona)",
+        "goals_for": 8,
+        "goals_against": 3
+      }
+    },
+    {
+      "name": "Camavinga",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 2,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 3,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          },
+          {
+            "position": 4,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Pedri González (FC Barcelona)",
+        "top_assistant": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "goals_for": 7,
+        "goals_against": 3
+      }
+    },
+    {
+      "name": "Esteban de Lezo",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Australia",
+            "original_team": "Australia"
+          },
+          {
+            "position": 4,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          },
+          {
+            "position": 4,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Fabián Ruiz (Paris Saint-Germain)",
+        "goals_for": 7,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "Tobigol",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 3,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 3,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 3,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Ferran Torres (FC Barcelona)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 7,
+        "goals_against": 5
+      }
+    },
+    {
+      "name": "Felipon",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 2,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 8,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "Tikitaka Humano",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 2,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 3,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 4,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Haiti",
+            "original_team": "Haití"
+          },
+          {
+            "position": 4,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Australia",
+            "original_team": "Australia"
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "United States",
+            "original_team": "EE.UU."
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 3,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          },
+          {
+            "position": 4,
+            "team": "Japan",
+            "original_team": "Japón"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Iraq",
+            "original_team": "Irak"
+          },
+          {
+            "position": 4,
+            "team": "Norway",
+            "original_team": "Noruega"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 3,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 3,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 2,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Lamine Yamal (FC Barcelona)",
+        "top_assistant": "Dani Olmo (FC Barcelona)",
+        "goals_for": 5,
+        "goals_against": 4
+      }
+    },
+    {
+      "name": "La ELEgida😌🏆",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 2,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Qatar",
+            "original_team": "Catar"
+          },
+          {
+            "position": 4,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 2,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 3,
+            "team": "Australia",
+            "original_team": "Australia"
+          },
+          {
+            "position": 4,
+            "team": "United States",
+            "original_team": "EE.UU."
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 3,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          },
+          {
+            "position": 4,
+            "team": "Austria",
+            "original_team": "Austria"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Borja Iglesias (RC Celta)",
+        "top_assistant": "Lamine Yamal (FC Barcelona)",
+        "goals_for": 9,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "El Sabio de Hortaleza",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          },
+          {
+            "position": 4,
+            "team": "Iran",
+            "original_team": "Irán"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Fabián Ruiz (Paris Saint-Germain)",
+        "goals_for": 6,
+        "goals_against": 2
+      }
+    },
+    {
+      "name": "Andrés (Iniesta de mi vida!)",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 3,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 4,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          },
+          {
+            "position": 4,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 3,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Merino (Arsenal FC)",
+        "top_assistant": "Marc Cucurella (Chelsea FC)",
+        "goals_for": 9,
+        "goals_against": 3
+      }
+    },
+    {
+      "name": "Crisronalda7 🤙🏼🤙🏼",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          },
+          {
+            "position": 2,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 3,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 4,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Qatar",
+            "original_team": "Catar"
+          },
+          {
+            "position": 2,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 3,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 4,
+            "team": "Canada",
+            "original_team": "Canada"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 3,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Australia",
+            "original_team": "Australia"
+          },
+          {
+            "position": 2,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 3,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 4,
+            "team": "United States",
+            "original_team": "EE.UU."
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 3,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          },
+          {
+            "position": 4,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Japan",
+            "original_team": "Japón"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          },
+          {
+            "position": 2,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 3,
+            "team": "Iran",
+            "original_team": "Irán"
+          },
+          {
+            "position": 4,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          },
+          {
+            "position": 4,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 3,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          },
+          {
+            "position": 4,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 3,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Panama",
+            "original_team": "Panamá"
+          },
+          {
+            "position": 4,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Ferran Torres (FC Barcelona)",
+        "top_assistant": "Nico Williams (Athletic Club)",
+        "goals_for": 8,
+        "goals_against": 4
+      }
+    },
+    {
+      "name": "Beloncio",
+      "groups": {
+        "A": [
+          {
+            "position": 1,
+            "team": "Mexico",
+            "original_team": "México"
+          },
+          {
+            "position": 2,
+            "team": "South Korea",
+            "original_team": "República de Corea"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "original_team": "Chequia"
+          },
+          {
+            "position": 4,
+            "team": "South Africa",
+            "original_team": "Sudáfrica"
+          }
+        ],
+        "B": [
+          {
+            "position": 1,
+            "team": "Switzerland",
+            "original_team": "Suiza"
+          },
+          {
+            "position": 2,
+            "team": "Bosnia and Herzegovina",
+            "original_team": "Bosnia y Herzegovina"
+          },
+          {
+            "position": 3,
+            "team": "Canada",
+            "original_team": "Canada"
+          },
+          {
+            "position": 4,
+            "team": "Qatar",
+            "original_team": "Catar"
+          }
+        ],
+        "C": [
+          {
+            "position": 1,
+            "team": "Brazil",
+            "original_team": "Brasil"
+          },
+          {
+            "position": 2,
+            "team": "Morocco",
+            "original_team": "Marruecos"
+          },
+          {
+            "position": 3,
+            "team": "Scotland",
+            "original_team": "Escocia"
+          },
+          {
+            "position": 4,
+            "team": "Haiti",
+            "original_team": "Haití"
+          }
+        ],
+        "D": [
+          {
+            "position": 1,
+            "team": "Turkey",
+            "original_team": "Turquía"
+          },
+          {
+            "position": 2,
+            "team": "United States",
+            "original_team": "EE.UU."
+          },
+          {
+            "position": 3,
+            "team": "Paraguay",
+            "original_team": "Paraguay"
+          },
+          {
+            "position": 4,
+            "team": "Australia",
+            "original_team": "Australia"
+          }
+        ],
+        "E": [
+          {
+            "position": 1,
+            "team": "Germany",
+            "original_team": "Alemania"
+          },
+          {
+            "position": 2,
+            "team": "Ecuador",
+            "original_team": "Ecuador"
+          },
+          {
+            "position": 3,
+            "team": "Ivory Coast",
+            "original_team": "Costa de Marfil"
+          },
+          {
+            "position": 4,
+            "team": "Curaçao",
+            "original_team": "Curazao"
+          }
+        ],
+        "F": [
+          {
+            "position": 1,
+            "team": "Netherlands",
+            "original_team": "Paises Bajos"
+          },
+          {
+            "position": 2,
+            "team": "Japan",
+            "original_team": "Japón"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "original_team": "Suecia"
+          },
+          {
+            "position": 4,
+            "team": "Tunisia",
+            "original_team": "Túnez"
+          }
+        ],
+        "G": [
+          {
+            "position": 1,
+            "team": "Belgium",
+            "original_team": "Bélgica"
+          },
+          {
+            "position": 2,
+            "team": "Egypt",
+            "original_team": "Egipto"
+          },
+          {
+            "position": 3,
+            "team": "New Zealand",
+            "original_team": "Nueva Zelanda"
+          },
+          {
+            "position": 4,
+            "team": "Iran",
+            "original_team": "Irán"
+          }
+        ],
+        "H": [
+          {
+            "position": 1,
+            "team": "Spain",
+            "original_team": "España"
+          },
+          {
+            "position": 2,
+            "team": "Uruguay",
+            "original_team": "Uruguay"
+          },
+          {
+            "position": 3,
+            "team": "Saudi Arabia",
+            "original_team": "Arabia Saudi"
+          },
+          {
+            "position": 4,
+            "team": "Cape Verde",
+            "original_team": "Cabo Verde"
+          }
+        ],
+        "I": [
+          {
+            "position": 1,
+            "team": "France",
+            "original_team": "Francia"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "original_team": "Noruega"
+          },
+          {
+            "position": 3,
+            "team": "Senegal",
+            "original_team": "Senegal"
+          },
+          {
+            "position": 4,
+            "team": "Iraq",
+            "original_team": "Irak"
+          }
+        ],
+        "J": [
+          {
+            "position": 1,
+            "team": "Argentina",
+            "original_team": "Argentina"
+          },
+          {
+            "position": 2,
+            "team": "Austria",
+            "original_team": "Austria"
+          },
+          {
+            "position": 3,
+            "team": "Algeria",
+            "original_team": "Argelia"
+          },
+          {
+            "position": 4,
+            "team": "Jordan",
+            "original_team": "Jordamia"
+          }
+        ],
+        "K": [
+          {
+            "position": 1,
+            "team": "Portugal",
+            "original_team": "Portugal"
+          },
+          {
+            "position": 2,
+            "team": "Colombia",
+            "original_team": "Colombia"
+          },
+          {
+            "position": 3,
+            "team": "Democratic Republic of the Congo",
+            "original_team": "RD Congo"
+          },
+          {
+            "position": 4,
+            "team": "Uzbekistan",
+            "original_team": "Uzbekistán"
+          }
+        ],
+        "L": [
+          {
+            "position": 1,
+            "team": "England",
+            "original_team": "Inglaterra"
+          },
+          {
+            "position": 2,
+            "team": "Croatia",
+            "original_team": "Croacia"
+          },
+          {
+            "position": 3,
+            "team": "Ghana",
+            "original_team": "Ghana"
+          },
+          {
+            "position": 4,
+            "team": "Panama",
+            "original_team": "Panamá"
+          }
+        ]
+      },
+      "spain_questions": {
+        "top_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "top_assistant": "Pedri González (FC Barcelona)",
+        "goals_for": 8,
+        "goals_against": 4
+      }
+    }
+  ]
+}

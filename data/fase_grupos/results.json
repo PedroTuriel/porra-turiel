@@ -1,0 +1,5608 @@
+{
+  "generated_at": "2026-06-28 08:00:12",
+  "sources": {
+    "predictions": "data\\predictions.json",
+    "standings": "data\\standings.json",
+    "spain_answers": "data\\spain_answers.json"
+  },
+  "scoring_rules": {
+    "group": {
+      "classified_team_each": 2,
+      "both_classified_bonus": 1,
+      "exact_order": 3,
+      "third_place": 1,
+      "fourth_place": 1,
+      "max_per_group": 10
+    },
+    "spain_questions": {
+      "top_scorer": 5,
+      "top_assistant": 5,
+      "goals_for_exact": 10,
+      "goals_for_nearest": 5,
+      "goals_against_exact": 10,
+      "goals_against_nearest": 5
+    }
+  },
+  "ranking": [
+    {
+      "name": "RaúlSelección",
+      "total_points": 99,
+      "group_points": 79,
+      "spain_points": 20,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "South Africa",
+            "Czech Republic"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "United States",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Algeria",
+            "Austria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 5,
+          "real": 5,
+          "points": 10
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 20
+      },
+      "rank": 1
+    },
+    {
+      "name": "Felipon",
+      "total_points": 97,
+      "group_points": 87,
+      "spain_points": 10,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "United States",
+            "Turkey",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 8,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 10
+      },
+      "rank": 2
+    },
+    {
+      "name": "El Sabio de Hortaleza",
+      "total_points": 97,
+      "group_points": 87,
+      "spain_points": 10,
+      "groups": {
+        "A": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Africa",
+            "Czech Republic",
+            "South Korea"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Paraguay",
+            "United States",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "New Zealand",
+            "Iran"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Fabián Ruiz (Paris Saint-Germain)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 6,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 10
+      },
+      "rank": 3
+    },
+    {
+      "name": "Mattias",
+      "total_points": 94,
+      "group_points": 84,
+      "spain_points": 10,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Czech Republic",
+            "Mexico",
+            "South Korea",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Bosnia and Herzegovina",
+            "Canada",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "United States",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 5,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Japan",
+            "Netherlands",
+            "Tunisia",
+            "Sweden"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Dani Olmo (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 5
+        },
+        "goals_for": {
+          "prediction": 10,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 10
+      },
+      "rank": 4
+    },
+    {
+      "name": "Iago Aspas",
+      "total_points": 91,
+      "group_points": 81,
+      "spain_points": 10,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "United States",
+            "Turkey",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Sweden",
+            "Japan",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Norway",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 9,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 10
+      },
+      "rank": 5
+    },
+    {
+      "name": "Camavinga",
+      "total_points": 85,
+      "group_points": 80,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "South Korea",
+            "Czech Republic",
+            "Mexico",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Paraguay",
+            "United States",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 5,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Uzbekistan",
+            "Democratic Republic of the Congo"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Pedri González (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 5
+        },
+        "goals_for": {
+          "prediction": 7,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 3,
+          "real": 0,
+          "points": 0
+        },
+        "total": 5
+      },
+      "rank": 6
+    },
+    {
+      "name": "Esteban de Lezo",
+      "total_points": 85,
+      "group_points": 75,
+      "spain_points": 10,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "United States",
+            "Australia",
+            "Paraguay"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Tunisia",
+            "Sweden"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Norway",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Fabián Ruiz (Paris Saint-Germain)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 7,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 10
+      },
+      "rank": 7
+    },
+    {
+      "name": "Beloncio",
+      "total_points": 83,
+      "group_points": 78,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Bosnia and Herzegovina",
+            "Canada",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "United States",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "New Zealand",
+            "Iran"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Pedri González (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 8,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 4,
+          "real": 0,
+          "points": 0
+        },
+        "total": 5
+      },
+      "rank": 8
+    },
+    {
+      "name": "Marianin.Jr",
+      "total_points": 78,
+      "group_points": 73,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "United States",
+            "Turkey",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Iran",
+            "Egypt",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Norway",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Ferran Torres (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 8,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 5
+      },
+      "rank": 9
+    },
+    {
+      "name": "Amatxi",
+      "total_points": 78,
+      "group_points": 73,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "Czech Republic",
+            "South Africa",
+            "South Korea"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Canada",
+            "Switzerland",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "United States",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Curaçao",
+            "Ivory Coast",
+            "Ecuador"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Sweden",
+            "Japan",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Uruguay",
+            "Spain",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 5,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Uzbekistan",
+            "Democratic Republic of the Congo"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 6,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 4,
+          "real": 0,
+          "points": 0
+        },
+        "total": 5
+      },
+      "rank": 10
+    },
+    {
+      "name": "Andrés (Iniesta de mi vida!)",
+      "total_points": 77,
+      "group_points": 77,
+      "spain_points": 0,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "Czech Republic",
+            "South Africa",
+            "South Korea"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Paraguay",
+            "United States",
+            "Turkey",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Curaçao",
+            "Ivory Coast"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Sweden",
+            "Japan",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Merino (Arsenal FC)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Marc Cucurella (Chelsea FC)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 9,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 3,
+          "real": 0,
+          "points": 0
+        },
+        "total": 0
+      },
+      "rank": 11
+    },
+    {
+      "name": "La ELEgida😌🏆",
+      "total_points": 77,
+      "group_points": 72,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "South Korea",
+            "Mexico",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Qatar",
+            "Bosnia and Herzegovina"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Paraguay",
+            "Turkey",
+            "Australia",
+            "United States"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Norway",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Algeria",
+            "Jordan",
+            "Austria"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Borja Iglesias (RC Celta)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 9,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 2,
+          "real": 0,
+          "points": 5
+        },
+        "total": 5
+      },
+      "rank": 12
+    },
+    {
+      "name": "Guru",
+      "total_points": 76,
+      "group_points": 76,
+      "spain_points": 0,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Qatar",
+            "Bosnia and Herzegovina",
+            "Canada"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Paraguay",
+            "Australia",
+            "United States"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "New Zealand",
+            "Egypt",
+            "Iran"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Ferran Torres (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Álex Baena (Atlético de Madrid)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 4,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 5,
+          "real": 0,
+          "points": 0
+        },
+        "total": 0
+      },
+      "rank": 13
+    },
+    {
+      "name": "Maru",
+      "total_points": 73,
+      "group_points": 68,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Czech Republic",
+            "Mexico",
+            "South Africa",
+            "South Korea"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Bosnia and Herzegovina",
+            "Canada",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Haiti",
+            "Scotland"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "United States",
+            "Turkey",
+            "Australia",
+            "Paraguay"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Iran",
+            "Egypt",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 5,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Uzbekistan",
+            "Democratic Republic of the Congo"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Pedri González (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 8,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 3,
+          "real": 0,
+          "points": 0
+        },
+        "total": 5
+      },
+      "rank": 14
+    },
+    {
+      "name": "La sevillana",
+      "total_points": 73,
+      "group_points": 63,
+      "spain_points": 10,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Bosnia and Herzegovina",
+            "Switzerland",
+            "Canada",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "United States",
+            "Paraguay",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Japan",
+            "Netherlands",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Iran",
+            "Egypt",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Iraq",
+            "Norway"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Colombia",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "Croatia",
+            "England",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Nico Williams (Athletic Club)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Pedri González (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 5,
+          "real": 5,
+          "points": 10
+        },
+        "goals_against": {
+          "prediction": 3,
+          "real": 0,
+          "points": 0
+        },
+        "total": 10
+      },
+      "rank": 15
+    },
+    {
+      "name": "Tobigol",
+      "total_points": 72,
+      "group_points": 72,
+      "spain_points": 0,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "Czech Republic",
+            "South Korea",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Bosnia and Herzegovina",
+            "Canada",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Paraguay",
+            "United States",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Iran",
+            "Egypt",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Ferran Torres (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 7,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 5,
+          "real": 0,
+          "points": 0
+        },
+        "total": 0
+      },
+      "rank": 16
+    },
+    {
+      "name": "Moni",
+      "total_points": 70,
+      "group_points": 70,
+      "spain_points": 0,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Canada",
+            "Qatar",
+            "Bosnia and Herzegovina"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Morocco",
+            "Brazil",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Paraguay",
+            "United States",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Iran",
+            "Egypt",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 5,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Uzbekistan",
+            "Democratic Republic of the Congo"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Ferran Torres (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Pedri González (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 10,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 4,
+          "real": 0,
+          "points": 0
+        },
+        "total": 0
+      },
+      "rank": 17
+    },
+    {
+      "name": "Tikitaka Humano",
+      "total_points": 70,
+      "group_points": 55,
+      "spain_points": 15,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Czech Republic",
+            "South Africa",
+            "Mexico",
+            "South Korea"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Bosnia and Herzegovina",
+            "Canada",
+            "Switzerland",
+            "Qatar"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Haiti",
+            "Scotland"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Australia",
+            "Paraguay",
+            "United States"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Sweden",
+            "Tunisia",
+            "Japan"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Iraq",
+            "Norway"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Algeria",
+            "Austria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Colombia",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "Croatia",
+            "England",
+            "Ghana",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Lamine Yamal (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Dani Olmo (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 5
+        },
+        "goals_for": {
+          "prediction": 5,
+          "real": 5,
+          "points": 10
+        },
+        "goals_against": {
+          "prediction": 4,
+          "real": 0,
+          "points": 0
+        },
+        "total": 15
+      },
+      "rank": 18
+    },
+    {
+      "name": "Tim Payne",
+      "total_points": 67,
+      "group_points": 62,
+      "spain_points": 5,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "Mexico",
+            "South Korea",
+            "Czech Republic",
+            "South Africa"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Switzerland",
+            "Qatar",
+            "Canada",
+            "Bosnia and Herzegovina"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 0,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 0,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Turkey",
+            "Paraguay",
+            "United States",
+            "Australia"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ecuador",
+            "Ivory Coast",
+            "Curaçao"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Saudi Arabia",
+            "Cape Verde"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 10,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Algeria",
+            "Austria",
+            "Jordan"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 1,
+          "total": 7,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Colombia",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Ghana",
+            "Croatia",
+            "Panama"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 5
+        },
+        "top_assistant": {
+          "prediction": "Pedri González (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 8,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 3,
+          "real": 0,
+          "points": 0
+        },
+        "total": 5
+      },
+      "rank": 19
+    },
+    {
+      "name": "Crisronalda7 🤙🏼🤙🏼",
+      "total_points": 49,
+      "group_points": 49,
+      "spain_points": 0,
+      "groups": {
+        "A": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "Mexico",
+            "South Africa",
+            "South Korea",
+            "Czech Republic"
+          ],
+          "predicted_order": [
+            "South Africa",
+            "Czech Republic",
+            "Mexico",
+            "South Korea"
+          ]
+        },
+        "B": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "Switzerland",
+            "Canada",
+            "Bosnia and Herzegovina",
+            "Qatar"
+          ],
+          "predicted_order": [
+            "Qatar",
+            "Switzerland",
+            "Bosnia and Herzegovina",
+            "Canada"
+          ]
+        },
+        "C": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Brazil",
+            "Morocco",
+            "Scotland",
+            "Haiti"
+          ],
+          "predicted_order": [
+            "Brazil",
+            "Scotland",
+            "Morocco",
+            "Haiti"
+          ]
+        },
+        "D": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 2,
+          "real_order": [
+            "United States",
+            "Australia",
+            "Paraguay",
+            "Turkey"
+          ],
+          "predicted_order": [
+            "Australia",
+            "Paraguay",
+            "Turkey",
+            "United States"
+          ]
+        },
+        "E": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Germany",
+            "Ivory Coast",
+            "Ecuador",
+            "Curaçao"
+          ],
+          "predicted_order": [
+            "Germany",
+            "Ivory Coast",
+            "Curaçao",
+            "Ecuador"
+          ]
+        },
+        "F": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "Netherlands",
+            "Japan",
+            "Sweden",
+            "Tunisia"
+          ],
+          "predicted_order": [
+            "Netherlands",
+            "Tunisia",
+            "Sweden",
+            "Japan"
+          ]
+        },
+        "G": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 1,
+          "fourth_place_points": 0,
+          "total": 3,
+          "real_order": [
+            "Belgium",
+            "Egypt",
+            "Iran",
+            "New Zealand"
+          ],
+          "predicted_order": [
+            "New Zealand",
+            "Belgium",
+            "Iran",
+            "Egypt"
+          ]
+        },
+        "H": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Spain",
+            "Cape Verde",
+            "Uruguay",
+            "Saudi Arabia"
+          ],
+          "predicted_order": [
+            "Spain",
+            "Uruguay",
+            "Cape Verde",
+            "Saudi Arabia"
+          ]
+        },
+        "I": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "France",
+            "Norway",
+            "Senegal",
+            "Iraq"
+          ],
+          "predicted_order": [
+            "France",
+            "Senegal",
+            "Norway",
+            "Iraq"
+          ]
+        },
+        "J": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "Argentina",
+            "Austria",
+            "Algeria",
+            "Jordan"
+          ],
+          "predicted_order": [
+            "Argentina",
+            "Austria",
+            "Jordan",
+            "Algeria"
+          ]
+        },
+        "K": {
+          "classified_teams_points": 2,
+          "classified_bonus_points": 0,
+          "exact_order_points": 0,
+          "third_place_points": 0,
+          "fourth_place_points": 1,
+          "total": 3,
+          "real_order": [
+            "Colombia",
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Uzbekistan"
+          ],
+          "predicted_order": [
+            "Portugal",
+            "Democratic Republic of the Congo",
+            "Colombia",
+            "Uzbekistan"
+          ]
+        },
+        "L": {
+          "classified_teams_points": 4,
+          "classified_bonus_points": 1,
+          "exact_order_points": 3,
+          "third_place_points": 0,
+          "fourth_place_points": 0,
+          "total": 8,
+          "real_order": [
+            "England",
+            "Croatia",
+            "Ghana",
+            "Panama"
+          ],
+          "predicted_order": [
+            "England",
+            "Croatia",
+            "Panama",
+            "Ghana"
+          ]
+        }
+      },
+      "spain_questions": {
+        "top_scorer": {
+          "prediction": "Ferran Torres (FC Barcelona)",
+          "real": [
+            "Mikel Oyarzabal"
+          ],
+          "points": 0
+        },
+        "top_assistant": {
+          "prediction": "Nico Williams (Athletic Club)",
+          "real": [
+            "Mikel Oyarzabal",
+            "Dani Olmo",
+            "Laporte",
+            "Marcos Llorente"
+          ],
+          "points": 0
+        },
+        "goals_for": {
+          "prediction": 8,
+          "real": 5,
+          "points": 0
+        },
+        "goals_against": {
+          "prediction": 4,
+          "real": 0,
+          "points": 0
+        },
+        "total": 0
+      },
+      "rank": 20
+    }
+  ]
+}

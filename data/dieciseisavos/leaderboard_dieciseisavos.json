@@ -1,0 +1,1289 @@
+[
+  {
+    "participant": "Maru",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Pedro Porro (Tottenham Hotspur)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Guru",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 3,
+        "first_spain_sub": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_mvp": "Rodrigo Hernández (Manchester City FC)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 2
+  },
+  {
+    "participant": "Amatxi",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Lamine Yamal (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 3
+  },
+  {
+    "participant": "Iago Aspas",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Álex Baena (Atlético de Madrid)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 4
+  },
+  {
+    "participant": "La sevillana",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Dani Olmo (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 5
+  },
+  {
+    "participant": "Moni",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 1,
+        "first_spain_sub": "Martín Zubimendi (Arsenal FC)",
+        "spain_mvp": "Ferran Torres (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 6
+  },
+  {
+    "participant": "Tim Payne",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Mikel Merino (Arsenal FC)",
+        "spain_mvp": "Pedri González (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 7
+  },
+  {
+    "participant": "Andrés (Iniesta de mi vida!)",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 3,
+        "first_spain_sub": "Nico Williams (Athletic Club)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 8
+  },
+  {
+    "participant": "Camavinga",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Ferran Torres (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 9
+  },
+  {
+    "participant": "La ELEgida😌🏆",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Ferran Torres (FC Barcelona)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 10
+  },
+  {
+    "participant": "Tikitaka Humano",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Marc Cucurella (Chelsea FC)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 11
+  },
+  {
+    "participant": "Esteban de Lezo",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Pedri González (FC Barcelona)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 12
+  },
+  {
+    "participant": "Tobigol",
+    "total_points": 0,
+    "match_points": 0,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Pau Cubarsí (FC Barcelona)",
+        "spain_mvp": "Marc Cucurella (Chelsea FC)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Japón",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Alemania - Paraguay",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 13
+  }
+]

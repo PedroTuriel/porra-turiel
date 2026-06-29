@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-28 08:00:12",
+  "source": {
+    "goals": "data/standings.json",
+    "top_scorers": "manual",
+    "top_assistants": "manual"
+  },
+  "spain": {
+    "group": "H",
+    "team": "Spain",
+    "team_id": "29",
+    "played": 3,
+    "position": 1,
+    "points": 7,
+    "goals_for": 5,
+    "goals_against": 0,
+    "goal_difference": 5,
+    "top_scorers": [
+      "Mikel Oyarzabal"
+    ],
+    "top_assistants": [
+      "Mikel Oyarzabal",
+      "Dani Olmo",
+      "Laporte",
+      "Marcos Llorente"
+    ]
+  }
+}
