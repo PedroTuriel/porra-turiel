@@ -5,7 +5,7 @@ from typing import Any, Dict, List
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
-PUBLIC_DIR = BASE_DIR / "public"
+PUBLIC_DIR = BASE_DIR / "docs"
 OUTPUT_FILE = PUBLIC_DIR / "index.html"
 
 # Fase de grupos, congelada / estatica
@@ -481,7 +481,7 @@ def generate_html(app_data: Dict[str, Any]) -> str:
       <div class="hero-card">
         <div class="eyebrow">Mundial 2026</div>
         <h1>La Porra<br>Turiel 2026</h1>
-        <div class="subtitle">Dieciseisavos en marcha · Fase de grupos congelada</div>
+        <div class="subtitle">Dieciseisavos</div>
         <div class="hero-stats">
           <div class="stat"><strong id="statParticipants">0</strong><span>Participantes</span></div>
           <div class="stat"><strong id="statLeader">-</strong><span>Líder dieciseisavos</span></div>
@@ -495,7 +495,6 @@ def generate_html(app_data: Dict[str, Any]) -> str:
     <div class="container tabs-inner">
       <button class="tab-button active" data-tab="r32Tab">Dieciseisavos</button>
       <button class="tab-button" data-tab="groupsTab">Fase de grupos</button>
-      <a class="nav-link" href="#reglas">Reglas</a>
     </div>
   </div>
 
