@@ -9,107 +9,121 @@
     {
       "home_team": "Brasil",
       "away_team": "Japón",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null
+      "home_goals": 2,
+      "away_goals": 1,
+      "decided_in": 90
     },
     {
       "home_team": "Alemania",
       "away_team": "Paraguay",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null
+      "home_goals": 1,
+      "away_goals": 1,
+      "decided_in": "penalties",
+      "qualified_team": "Paraguay"
     },
     {
       "home_team": "Países Bajos",
       "away_team": "Marruecos",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null
+      "home_goals": 1,
+      "away_goals": 1,
+      "decided_in": "penalties",
+      "qualified_team": "Marruecos"
     },
     {
       "home_team": "Costa de Marfil",
       "away_team": "Noruega",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Francia",
       "away_team": "Suecia",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "México",
       "away_team": "Ecuador",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Inglaterra",
       "away_team": "R.D. del Congo",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Bélgica",
       "away_team": "Senegal",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Estados Unidos",
       "away_team": "Bosnia Herzegovina",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "España",
       "away_team": "Austria",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Portugal",
       "away_team": "Croacia",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Suiza",
       "away_team": "Argelia",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Australia",
       "away_team": "Egipto",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Argentina",
       "away_team": "Cabo Verde",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     },
     {
       "home_team": "Colombia",
       "away_team": "Ghana",
       "home_goals": null,
       "away_goals": null,
-      "decided_in": null
+      "decided_in": null,
+      "qualified_team": null
     }
   ]
 }

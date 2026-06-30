@@ -53,7 +53,18 @@ def match_key(home_team: str, away_team: str) -> Tuple[str, str]:
 
 
 def get_winner(match: Dict[str, Any]) -> Optional[str]:
-    for key in ("winner", "qualified_team", "classified_team"):
+    for key in (
+        "winner",
+        "qualified_team",
+        "classified_team",
+        "winner_team",
+        "team_winner",
+        "penalty_winner",
+        "penalties_winner",
+        "extra_time_winner",
+        "qualified",
+        "classified",
+    ):
         if match.get(key):
             return match[key]
 
@@ -68,9 +79,12 @@ def get_winner(match: Dict[str, Any]) -> Optional[str]:
 
     if home_goals > away_goals:
         return match["home_team"]
+
     if away_goals > home_goals:
         return match["away_team"]
 
+    # Si hay empate en 90 minutos, necesitamos saber quién se clasificó.
+    # Si no está indicado en data.json, no se puede calcular bien el ganador.
     return None
 
 

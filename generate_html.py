@@ -409,6 +409,15 @@ def generate_html(app_data: Dict[str, Any]) -> str:
     th {{ color: var(--gold2); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; background: rgba(245,185,66,0.07); }}
     tr:hover td {{ background: rgba(255,255,255,0.035); }}
 
+    .eliminated-row td {{
+      background: rgba(255, 107, 107, 0.22);
+      border-bottom-color: rgba(255, 107, 107, 0.35);
+    }}
+
+    .eliminated-row:hover td {{
+      background: rgba(255, 107, 107, 0.30);
+    }}
+
     .selector-box {{ display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }}
     select {{
       width: min(100%, 420px);
@@ -639,15 +648,20 @@ def generate_html(app_data: Dict[str, Any]) -> str:
     function renderR32Ranking() {{
       const tbody = document.getElementById("r32RankingTable");
       const ranking = APP_DATA.r32.leaderboard || [];
-      tbody.innerHTML = ranking.map((p, index) => `
-        <tr>
-          <td><strong>${{medal(p.position || index + 1)}}</strong></td>
-          <td><strong>${{escapeHtml(p.display_name)}}</strong></td>
-          <td><strong>${{pts(p.total_points)}}</strong></td>
-          <td>${{pts(p.match_points)}}</td>
-          <td>${{pts(p.spain_points)}}</td>
-        </tr>
-      `).join("");
+      const eliminatedStartIndex = Math.max(ranking.length - 3, 0);
+
+      tbody.innerHTML = ranking.map((p, index) => {{
+        const isEliminated = index >= eliminatedStartIndex;
+        return `
+          <tr class="${{isEliminated ? "eliminated-row" : ""}}">
+            <td><strong>${{medal(p.position || index + 1)}}</strong></td>
+            <td><strong>${{escapeHtml(p.display_name)}}</strong></td>
+            <td><strong>${{pts(p.total_points)}}</strong></td>
+            <td>${{pts(p.match_points)}}</td>
+            <td>${{pts(p.spain_points)}}</td>
+          </tr>
+        `;
+      }}).join("");
     }}
 
     function renderR32Selector() {{
