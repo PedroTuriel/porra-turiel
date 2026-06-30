@@ -178,8 +178,10 @@ def build_app_data() -> Dict[str, Any]:
         },
         "r32": {
             "leaderboard": enrich_r32_leaderboard(r32_leaderboard, r32_results),
-            "results": r32_results,
-            "generated_at": generated_at,
+            "results": {
+              **r32_results,
+              "generated_at": generated_at,
+            },
         },
     }
 
@@ -645,7 +647,7 @@ def generate_html(app_data: Dict[str, Any]) -> str:
       const ranking = APP_DATA.r32.leaderboard || [];
       document.getElementById("statParticipants").textContent = ranking.length;
       document.getElementById("statLeader").textContent = ranking[0]?.display_name || "-";
-      document.getElementById("statUpdated").textContent = APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
+      document.getElementById("statUpdated").textContent = APP_DATA.r32.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
     }}
 
     function renderR32Ranking() {{
