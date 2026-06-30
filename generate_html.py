@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from typing import Any, Dict, List
+from datetime import datetime
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -168,6 +169,7 @@ def build_app_data() -> Dict[str, Any]:
     group_standings = read_json(GROUP_STAGE_STANDINGS_FILE, {"groups": {}})
     r32_leaderboard = read_json(R32_LEADERBOARD_FILE, [])
     r32_results = read_json(R32_RESULTS_FILE, {"round": "R32", "spain": {}, "matches": []})
+    generated_at = datetime.now().strftime("%d/%m/%Y %H:%M")
 
     return {
         "group_stage": {
@@ -177,6 +179,7 @@ def build_app_data() -> Dict[str, Any]:
         "r32": {
             "leaderboard": enrich_r32_leaderboard(r32_leaderboard, r32_results),
             "results": r32_results,
+            "generated_at": generated_at,
         },
     }
 
