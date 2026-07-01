@@ -32,26 +32,26 @@
     {
       "home_team": "Costa de Marfil",
       "away_team": "Noruega",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 1,
+      "away_goals": 2,
+      "decided_in": 90,
+      "qualified_team": "Noruega"
     },
     {
       "home_team": "Francia",
       "away_team": "Suecia",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 3,
+      "away_goals": 0,
+      "decided_in": 90,
+      "qualified_team": "Francia"
     },
     {
       "home_team": "México",
       "away_team": "Ecuador",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 2,
+      "away_goals": 0,
+      "decided_in": 90,
+      "qualified_team": "México"
     },
     {
       "home_team": "Inglaterra",

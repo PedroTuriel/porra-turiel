@@ -1,8 +1,8 @@
 [
   {
     "participant": "Iago Aspas",
-    "total_points": 22,
-    "match_points": 22,
+    "total_points": 50,
+    "match_points": 50,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -41,8 +41,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -104,13 +118,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -142,8 +184,8 @@
   },
   {
     "participant": "Guru",
-    "total_points": 21,
-    "match_points": 21,
+    "total_points": 48,
+    "match_points": 48,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -182,8 +224,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -245,13 +301,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -282,573 +366,9 @@
     "position": 2
   },
   {
-    "participant": "Maru",
-    "total_points": 20,
-    "match_points": 20,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_sub_points": 0,
-      "spain_mvp_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_sub": "Pedro Porro (Tottenham Hotspur)",
-        "spain_mvp": "Lamine Yamal (FC Barcelona)"
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_sub": null,
-        "spain_mvp": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Alemania - Paraguay",
-        "points": 2,
-        "winner_points": 0,
-        "goals_points": 2,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Alemania",
-          "total_goals_90": 3,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Paraguay",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Países Bajos - Marruecos",
-        "points": 8,
-        "winner_points": 6,
-        "goals_points": 2,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Marruecos",
-          "total_goals_90": 3,
-          "decided_in": "extra_time"
-        },
-        "real": {
-          "winner": "Marruecos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Portugal - Croacia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "España - Austria",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bosnia Herzegovina",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Bélgica - Senegal",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Brasil - Japón",
-        "points": 10,
-        "winner_points": 6,
-        "goals_points": 3,
-        "decision_points": 1,
-        "prediction": {
-          "winner": "Brasil",
-          "total_goals_90": 3,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Brasil",
-          "home_goals": 2,
-          "away_goals": 1,
-          "total_goals_90": 3,
-          "decided_in": "90"
-        }
-      },
-      {
-        "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Inglaterra - R.D. del Congo",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Argentina - Cabo Verde",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Australia - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Suiza - Argelia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Colombia - Ghana",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      }
-    ],
-    "position": 3
-  },
-  {
-    "participant": "Tim Payne",
-    "total_points": 19,
-    "match_points": 19,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_sub_points": 0,
-      "spain_mvp_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_sub": "Mikel Merino (Arsenal FC)",
-        "spain_mvp": "Pedri González (FC Barcelona)"
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_sub": null,
-        "spain_mvp": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Alemania - Paraguay",
-        "points": 1,
-        "winner_points": 0,
-        "goals_points": 1,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Alemania",
-          "total_goals_90": 4,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Paraguay",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Países Bajos - Marruecos",
-        "points": 8,
-        "winner_points": 6,
-        "goals_points": 1,
-        "decision_points": 1,
-        "prediction": {
-          "winner": "Marruecos",
-          "total_goals_90": 4,
-          "decided_in": "penalties"
-        },
-        "real": {
-          "winner": "Marruecos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Portugal - Croacia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "España - Austria",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bosnia Herzegovina",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Bélgica - Senegal",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Brasil - Japón",
-        "points": 10,
-        "winner_points": 6,
-        "goals_points": 3,
-        "decision_points": 1,
-        "prediction": {
-          "winner": "Brasil",
-          "total_goals_90": 3,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Brasil",
-          "home_goals": 2,
-          "away_goals": 1,
-          "total_goals_90": 3,
-          "decided_in": "90"
-        }
-      },
-      {
-        "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Inglaterra - R.D. del Congo",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Argentina - Cabo Verde",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Australia - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Suiza - Argelia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Colombia - Ghana",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      }
-    ],
-    "position": 4
-  },
-  {
-    "participant": "Amatxi",
-    "total_points": 18,
-    "match_points": 18,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_sub_points": 0,
-      "spain_mvp_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_sub": "Lamine Yamal (FC Barcelona)",
-        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_sub": null,
-        "spain_mvp": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Alemania - Paraguay",
-        "points": 1,
-        "winner_points": 0,
-        "goals_points": 1,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Alemania",
-          "total_goals_90": 4,
-          "decided_in": "extra_time"
-        },
-        "real": {
-          "winner": "Paraguay",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Países Bajos - Marruecos",
-        "points": 10,
-        "winner_points": 6,
-        "goals_points": 3,
-        "decision_points": 1,
-        "prediction": {
-          "winner": "Marruecos",
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        },
-        "real": {
-          "winner": "Marruecos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Portugal - Croacia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "España - Austria",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bosnia Herzegovina",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Bélgica - Senegal",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Brasil - Japón",
-        "points": 7,
-        "winner_points": 6,
-        "goals_points": 1,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Brasil",
-          "total_goals_90": 5,
-          "decided_in": "extra_time"
-        },
-        "real": {
-          "winner": "Brasil",
-          "home_goals": 2,
-          "away_goals": 1,
-          "total_goals_90": 3,
-          "decided_in": "90"
-        }
-      },
-      {
-        "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Inglaterra - R.D. del Congo",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Argentina - Cabo Verde",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Australia - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Suiza - Argelia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Colombia - Ghana",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      }
-    ],
-    "position": 5
-  },
-  {
-    "participant": "Tikitaka Humano",
-    "total_points": 18,
-    "match_points": 18,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_sub_points": 0,
-      "spain_mvp_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_sub": "Marc Cucurella (Chelsea FC)",
-        "spain_mvp": "Lamine Yamal (FC Barcelona)"
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_sub": null,
-        "spain_mvp": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Alemania - Paraguay",
-        "points": 1,
-        "winner_points": 0,
-        "goals_points": 1,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Alemania",
-          "total_goals_90": 4,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Paraguay",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Países Bajos - Marruecos",
-        "points": 7,
-        "winner_points": 6,
-        "goals_points": 1,
-        "decision_points": 0,
-        "prediction": {
-          "winner": "Marruecos",
-          "total_goals_90": 4,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Marruecos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "total_goals_90": 2,
-          "decided_in": "penalties"
-        }
-      },
-      {
-        "match": "Portugal - Croacia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "España - Austria",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bosnia Herzegovina",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Bélgica - Senegal",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Brasil - Japón",
-        "points": 10,
-        "winner_points": 6,
-        "goals_points": 3,
-        "decision_points": 1,
-        "prediction": {
-          "winner": "Brasil",
-          "total_goals_90": 3,
-          "decided_in": "90"
-        },
-        "real": {
-          "winner": "Brasil",
-          "home_goals": 2,
-          "away_goals": 1,
-          "total_goals_90": 3,
-          "decided_in": "90"
-        }
-      },
-      {
-        "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Inglaterra - R.D. del Congo",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Argentina - Cabo Verde",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Australia - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Suiza - Argelia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Colombia - Ghana",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      }
-    ],
-    "position": 6
-  },
-  {
     "participant": "Marianin.Jr",
-    "total_points": 17,
-    "match_points": 17,
+    "total_points": 46,
+    "match_points": 46,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -887,8 +407,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -950,13 +484,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -984,21 +546,21 @@
         "warning": "Partido pendiente en data.json"
       }
     ],
-    "position": 7
+    "position": 3
   },
   {
-    "participant": "Andrés (Iniesta de mi vida!)",
-    "total_points": 14,
-    "match_points": 14,
+    "participant": "Amatxi",
+    "total_points": 43,
+    "match_points": 43,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
       "first_spain_sub_points": 0,
       "spain_mvp_points": 0,
       "prediction": {
-        "first_spain_goal": 3,
-        "first_spain_sub": "Nico Williams (Athletic Club)",
-        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+        "first_spain_goal": 2,
+        "first_spain_sub": "Lamine Yamal (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
       },
       "real": {
         "first_spain_goal": null,
@@ -1009,14 +571,14 @@
     "match_detail": [
       {
         "match": "Alemania - Paraguay",
-        "points": 3,
+        "points": 1,
         "winner_points": 0,
-        "goals_points": 3,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Alemania",
-          "total_goals_90": 2,
-          "decided_in": "90"
+          "total_goals_90": 4,
+          "decided_in": "extra_time"
         },
         "real": {
           "winner": "Paraguay",
@@ -1028,19 +590,33 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 5,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
-        "points": 2,
-        "winner_points": 0,
-        "goals_points": 2,
-        "decision_points": 0,
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
         "prediction": {
-          "winner": "Paises Bajos",
-          "total_goals_90": 1,
-          "decided_in": "90"
+          "winner": "Marruecos",
+          "total_goals_90": 2,
+          "decided_in": "penalties"
         },
         "real": {
           "winner": "Marruecos",
@@ -1072,14 +648,14 @@
       },
       {
         "match": "Brasil - Japón",
-        "points": 9,
+        "points": 7,
         "winner_points": 6,
-        "goals_points": 2,
-        "decision_points": 1,
+        "goals_points": 1,
+        "decision_points": 0,
         "prediction": {
           "winner": "Brasil",
-          "total_goals_90": 2,
-          "decided_in": "90"
+          "total_goals_90": 5,
+          "decided_in": "extra_time"
         },
         "real": {
           "winner": "Brasil",
@@ -1091,13 +667,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 7,
+        "winner_points": 6,
+        "goals_points": 0,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 5,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1125,12 +729,195 @@
         "warning": "Partido pendiente en data.json"
       }
     ],
-    "position": 8
+    "position": 4
+  },
+  {
+    "participant": "Tim Payne",
+    "total_points": 43,
+    "match_points": 43,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Mikel Merino (Arsenal FC)",
+        "spain_mvp": "Pedri González (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Alemania - Paraguay",
+        "points": 1,
+        "winner_points": 0,
+        "goals_points": 1,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Alemania",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 5,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Marruecos",
+          "total_goals_90": 4,
+          "decided_in": "penalties"
+        },
+        "real": {
+          "winner": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Brasil - Japón",
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Brasil",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 7,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 4,
+          "decided_in": "penalties"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 5
   },
   {
     "participant": "Tobigol",
-    "total_points": 14,
-    "match_points": 14,
+    "total_points": 42,
+    "match_points": 42,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1169,8 +956,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -1232,13 +1033,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1266,12 +1095,12 @@
         "warning": "Partido pendiente en data.json"
       }
     ],
-    "position": 9
+    "position": 6
   },
   {
-    "participant": "Beloncio",
-    "total_points": 14,
-    "match_points": 14,
+    "participant": "Maru",
+    "total_points": 41,
+    "match_points": 41,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1279,7 +1108,7 @@
       "spain_mvp_points": 0,
       "prediction": {
         "first_spain_goal": 2,
-        "first_spain_sub": "Álex Baena (Atlético de Madrid)",
+        "first_spain_sub": "Pedro Porro (Tottenham Hotspur)",
         "spain_mvp": "Lamine Yamal (FC Barcelona)"
       },
       "real": {
@@ -1291,13 +1120,13 @@
     "match_detail": [
       {
         "match": "Alemania - Paraguay",
-        "points": 3,
+        "points": 2,
         "winner_points": 0,
-        "goals_points": 3,
+        "goals_points": 2,
         "decision_points": 0,
         "prediction": {
           "winner": "Alemania",
-          "total_goals_90": 2,
+          "total_goals_90": 3,
           "decided_in": "90"
         },
         "real": {
@@ -1310,18 +1139,32 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 1,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
-        "points": 1,
-        "winner_points": 0,
-        "goals_points": 1,
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 2,
         "decision_points": 0,
         "prediction": {
-          "winner": "Paises Bajos",
-          "total_goals_90": 4,
+          "winner": "Marruecos",
+          "total_goals_90": 3,
           "decided_in": "extra_time"
         },
         "real": {
@@ -1373,13 +1216,590 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
+        "points": 4,
+        "winner_points": 0,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Costa Marfil",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
         "points": 0,
         "warning": "Partido pendiente en data.json"
       },
       {
-        "match": "México - Ecuador",
+        "match": "Argentina - Cabo Verde",
         "points": 0,
         "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 7
+  },
+  {
+    "participant": "Andrés (Iniesta de mi vida!)",
+    "total_points": 41,
+    "match_points": 41,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 3,
+        "first_spain_sub": "Nico Williams (Athletic Club)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Alemania - Paraguay",
+        "points": 3,
+        "winner_points": 0,
+        "goals_points": 3,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Alemania",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 2,
+        "winner_points": 0,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Paises Bajos",
+          "total_goals_90": 1,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Brasil - Japón",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Brasil",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 1,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 8
+  },
+  {
+    "participant": "Camavinga",
+    "total_points": 41,
+    "match_points": 41,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_sub": "Ferran Torres (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Alemania - Paraguay",
+        "points": 2,
+        "winner_points": 0,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Alemania",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 2,
+        "winner_points": 0,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Paises Bajos",
+          "total_goals_90": 3,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Brasil - Japón",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Brasil",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 1,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Inglaterra - R.D. del Congo",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Argentina - Cabo Verde",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Australia - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Suiza - Argelia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Colombia - Ghana",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      }
+    ],
+    "position": 9
+  },
+  {
+    "participant": "Moni",
+    "total_points": 38,
+    "match_points": 38,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_sub_points": 0,
+      "spain_mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": 1,
+        "first_spain_sub": "Martín Zubimendi (Arsenal FC)",
+        "spain_mvp": "Ferran Torres (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": null,
+        "first_spain_sub": null,
+        "spain_mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Alemania - Paraguay",
+        "points": 1,
+        "winner_points": 0,
+        "goals_points": 1,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Alemania",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Francia - Suecia",
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 3,
+        "winner_points": 0,
+        "goals_points": 3,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Paises Bajos",
+          "total_goals_90": 2,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "total_goals_90": 2,
+          "decided_in": "penalties"
+        }
+      },
+      {
+        "match": "Portugal - Croacia",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "España - Austria",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Estados Unidos - Bosnia Herzegovina",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Bélgica - Senegal",
+        "points": 0,
+        "warning": "Partido pendiente en data.json"
+      },
+      {
+        "match": "Brasil - Japón",
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Brasil",
+          "total_goals_90": 5,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Costa de Marfil - Noruega",
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Noruega",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "México - Ecuador",
+        "points": 7,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 4,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1411,8 +1831,8 @@
   },
   {
     "participant": "La sevillana",
-    "total_points": 13,
-    "match_points": 13,
+    "total_points": 36,
+    "match_points": 36,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1451,8 +1871,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -1514,13 +1948,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 4,
+        "winner_points": 0,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Costa Marfil",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1551,9 +2013,9 @@
     "position": 11
   },
   {
-    "participant": "Camavinga",
-    "total_points": 13,
-    "match_points": 13,
+    "participant": "Tikitaka Humano",
+    "total_points": 35,
+    "match_points": 35,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1561,8 +2023,8 @@
       "spain_mvp_points": 0,
       "prediction": {
         "first_spain_goal": 2,
-        "first_spain_sub": "Ferran Torres (FC Barcelona)",
-        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+        "first_spain_sub": "Marc Cucurella (Chelsea FC)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
       },
       "real": {
         "first_spain_goal": null,
@@ -1573,13 +2035,13 @@
     "match_detail": [
       {
         "match": "Alemania - Paraguay",
-        "points": 2,
+        "points": 1,
         "winner_points": 0,
-        "goals_points": 2,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Alemania",
-          "total_goals_90": 3,
+          "total_goals_90": 4,
           "decided_in": "90"
         },
         "real": {
@@ -1592,19 +2054,33 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
-      },
-      {
-        "match": "Países Bajos - Marruecos",
-        "points": 2,
-        "winner_points": 0,
+        "points": 8,
+        "winner_points": 6,
         "goals_points": 2,
         "decision_points": 0,
         "prediction": {
-          "winner": "Paises Bajos",
-          "total_goals_90": 3,
+          "winner": "Francia",
+          "total_goals_90": 4,
           "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
+      },
+      {
+        "match": "Países Bajos - Marruecos",
+        "points": 7,
+        "winner_points": 6,
+        "goals_points": 1,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Marruecos",
+          "total_goals_90": 4,
+          "decided_in": "90"
         },
         "real": {
           "winner": "Marruecos",
@@ -1636,13 +2112,13 @@
       },
       {
         "match": "Brasil - Japón",
-        "points": 9,
+        "points": 10,
         "winner_points": 6,
-        "goals_points": 2,
+        "goals_points": 3,
         "decision_points": 1,
         "prediction": {
           "winner": "Brasil",
-          "total_goals_90": 4,
+          "total_goals_90": 3,
           "decided_in": "90"
         },
         "real": {
@@ -1655,13 +2131,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 1,
+        "winner_points": 0,
+        "goals_points": 1,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Costa Marfil",
+          "total_goals_90": 1,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 3,
+          "decided_in": "penalties"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1693,8 +2197,8 @@
   },
   {
     "participant": "Esteban de Lezo",
-    "total_points": 13,
-    "match_points": 13,
+    "total_points": 33,
+    "match_points": 33,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1733,8 +2237,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 4,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -1796,13 +2314,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 2,
+        "winner_points": 0,
+        "goals_points": 1,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Costa Marfil",
+          "total_goals_90": 1,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 9,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 1,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1833,18 +2379,18 @@
     "position": 13
   },
   {
-    "participant": "Moni",
-    "total_points": 12,
-    "match_points": 12,
+    "participant": "Beloncio",
+    "total_points": 30,
+    "match_points": 30,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
       "first_spain_sub_points": 0,
       "spain_mvp_points": 0,
       "prediction": {
-        "first_spain_goal": 1,
-        "first_spain_sub": "Martín Zubimendi (Arsenal FC)",
-        "spain_mvp": "Ferran Torres (FC Barcelona)"
+        "first_spain_goal": 2,
+        "first_spain_sub": "Álex Baena (Atlético de Madrid)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
       },
       "real": {
         "first_spain_goal": null,
@@ -1855,13 +2401,13 @@
     "match_detail": [
       {
         "match": "Alemania - Paraguay",
-        "points": 1,
+        "points": 3,
         "winner_points": 0,
-        "goals_points": 1,
+        "goals_points": 3,
         "decision_points": 0,
         "prediction": {
           "winner": "Alemania",
-          "total_goals_90": 4,
+          "total_goals_90": 2,
           "decided_in": "90"
         },
         "real": {
@@ -1874,18 +2420,32 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 10,
+        "winner_points": 6,
+        "goals_points": 3,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 3,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
-        "points": 3,
+        "points": 1,
         "winner_points": 0,
-        "goals_points": 3,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Paises Bajos",
-          "total_goals_90": 2,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         },
         "real": {
@@ -1918,13 +2478,13 @@
       },
       {
         "match": "Brasil - Japón",
-        "points": 8,
+        "points": 10,
         "winner_points": 6,
-        "goals_points": 1,
+        "goals_points": 3,
         "decision_points": 1,
         "prediction": {
           "winner": "Brasil",
-          "total_goals_90": 5,
+          "total_goals_90": 3,
           "decided_in": "90"
         },
         "real": {
@@ -1937,13 +2497,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 3,
+        "winner_points": 0,
+        "goals_points": 2,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "Costa Marfil",
+          "total_goals_90": 2,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 3,
+        "winner_points": 0,
+        "goals_points": 3,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Ecuador",
+          "total_goals_90": 2,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
@@ -1975,8 +2563,8 @@
   },
   {
     "participant": "La ELEgida😌🏆",
-    "total_points": 12,
-    "match_points": 12,
+    "total_points": 29,
+    "match_points": 29,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -2015,8 +2603,22 @@
       },
       {
         "match": "Francia - Suecia",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 8,
+        "winner_points": 6,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Francia",
+          "total_goals_90": 2,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "Francia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Países Bajos - Marruecos",
@@ -2078,13 +2680,41 @@
       },
       {
         "match": "Costa de Marfil - Noruega",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 2,
+        "winner_points": 0,
+        "goals_points": 2,
+        "decision_points": 0,
+        "prediction": {
+          "winner": "Costa Marfil",
+          "total_goals_90": 2,
+          "decided_in": "extra_time"
+        },
+        "real": {
+          "winner": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "total_goals_90": 3,
+          "decided_in": "90"
+        }
       },
       {
         "match": "México - Ecuador",
-        "points": 0,
-        "warning": "Partido pendiente en data.json"
+        "points": 7,
+        "winner_points": 6,
+        "goals_points": 0,
+        "decision_points": 1,
+        "prediction": {
+          "winner": "México",
+          "total_goals_90": 5,
+          "decided_in": "90"
+        },
+        "real": {
+          "winner": "México",
+          "home_goals": 2,
+          "away_goals": 0,
+          "total_goals_90": 2,
+          "decided_in": "90"
+        }
       },
       {
         "match": "Inglaterra - R.D. del Congo",
