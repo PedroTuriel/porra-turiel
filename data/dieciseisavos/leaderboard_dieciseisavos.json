@@ -1,8 +1,8 @@
 [
   {
     "participant": "Iago Aspas",
-    "total_points": 73,
-    "match_points": 73,
+    "total_points": 74,
+    "match_points": 74,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -108,9 +108,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 6,
+        "points": 7,
         "winner_points": 6,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -119,9 +119,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -226,8 +226,8 @@
   },
   {
     "participant": "Guru",
-    "total_points": 67,
-    "match_points": 67,
+    "total_points": 68,
+    "match_points": 68,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -333,9 +333,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 1,
+        "points": 2,
         "winner_points": 0,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 1,
         "prediction": {
           "winner": "Senegal",
@@ -344,9 +344,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -451,8 +451,8 @@
   },
   {
     "participant": "Amatxi",
-    "total_points": 66,
-    "match_points": 66,
+    "total_points": 67,
+    "match_points": 67,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -558,9 +558,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 6,
+        "points": 7,
         "winner_points": 6,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -569,9 +569,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -676,8 +676,8 @@
   },
   {
     "participant": "Andrés (Iniesta de mi vida!)",
-    "total_points": 66,
-    "match_points": 66,
+    "total_points": 67,
+    "match_points": 67,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -783,9 +783,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 6,
+        "points": 7,
         "winner_points": 6,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -794,9 +794,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -901,8 +901,8 @@
   },
   {
     "participant": "Camavinga",
-    "total_points": 65,
-    "match_points": 65,
+    "total_points": 66,
+    "match_points": 66,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1008,9 +1008,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 7,
+        "points": 8,
         "winner_points": 6,
-        "goals_points": 1,
+        "goals_points": 2,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -1019,9 +1019,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -1126,8 +1126,8 @@
   },
   {
     "participant": "Marianin.Jr",
-    "total_points": 63,
-    "match_points": 63,
+    "total_points": 64,
+    "match_points": 64,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1233,9 +1233,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 0,
+        "points": 1,
         "winner_points": 0,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Senegal",
@@ -1244,9 +1244,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -1351,8 +1351,8 @@
   },
   {
     "participant": "Tobigol",
-    "total_points": 62,
-    "match_points": 62,
+    "total_points": 63,
+    "match_points": 63,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1458,9 +1458,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 2,
+        "points": 3,
         "winner_points": 0,
-        "goals_points": 1,
+        "goals_points": 2,
         "decision_points": 1,
         "prediction": {
           "winner": "Senegal",
@@ -1469,9 +1469,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -1576,8 +1576,8 @@
   },
   {
     "participant": "La sevillana",
-    "total_points": 61,
-    "match_points": 61,
+    "total_points": 62,
+    "match_points": 62,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1683,9 +1683,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 6,
+        "points": 7,
         "winner_points": 6,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -1694,9 +1694,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -1919,9 +1919,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -2026,8 +2026,8 @@
   },
   {
     "participant": "Tim Payne",
-    "total_points": 59,
-    "match_points": 59,
+    "total_points": 60,
+    "match_points": 60,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -2133,9 +2133,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 0,
+        "points": 1,
         "winner_points": 0,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Senegal",
@@ -2144,9 +2144,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -2369,9 +2369,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -2476,8 +2476,8 @@
   },
   {
     "participant": "Moni",
-    "total_points": 57,
-    "match_points": 57,
+    "total_points": 58,
+    "match_points": 58,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -2583,9 +2583,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 8,
+        "points": 9,
         "winner_points": 6,
-        "goals_points": 2,
+        "goals_points": 3,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -2594,9 +2594,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -2701,8 +2701,8 @@
   },
   {
     "participant": "Beloncio",
-    "total_points": 55,
-    "match_points": 55,
+    "total_points": 56,
+    "match_points": 56,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -2808,9 +2808,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 6,
+        "points": 7,
         "winner_points": 6,
-        "goals_points": 0,
+        "goals_points": 1,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -2819,9 +2819,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -2926,8 +2926,8 @@
   },
   {
     "participant": "La ELEgida😌🏆",
-    "total_points": 49,
-    "match_points": 49,
+    "total_points": 50,
+    "match_points": 50,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -3033,9 +3033,9 @@
       },
       {
         "match": "Bélgica - Senegal",
-        "points": 7,
+        "points": 8,
         "winner_points": 6,
-        "goals_points": 1,
+        "goals_points": 2,
         "decision_points": 0,
         "prediction": {
           "winner": "Bélgica",
@@ -3044,9 +3044,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
@@ -3269,9 +3269,9 @@
         },
         "real": {
           "winner": "Bélgica",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 2,
-          "total_goals_90": 5,
+          "total_goals_90": 4,
           "decided_in": "extra_time"
         }
       },
