@@ -56,26 +56,26 @@
     {
       "home_team": "Inglaterra",
       "away_team": "R.D. del Congo",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 2,
+      "away_goals": 1,
+      "decided_in": 90,
+      "qualified_team": "Inglaterra"
     },
     {
       "home_team": "Bélgica",
       "away_team": "Senegal",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 3,
+      "away_goals": 2,
+      "decided_in": "extra_time",
+      "qualified_team": "Bélgica"
     },
     {
       "home_team": "Estados Unidos",
       "away_team": "Bosnia Herzegovina",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 2,
+      "away_goals": 0,
+      "decided_in": 90,
+      "qualified_team": "Estados Unidos"
     },
     {
       "home_team": "España",
