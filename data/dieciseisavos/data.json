@@ -1,9 +1,9 @@
 {
   "round": "R32",
   "spain": {
-    "min_first_spain_goal": null,
-    "first_spain_sub": null,
-    "spain_mvp": null
+    "first_spain_goal": 2,
+    "first_spain_sub": "Dani Olmo (FC Barcelona)",
+    "spain_mvp": "Lamine Yamal (FC Barcelona)"
   },
   "matches": [
     {
@@ -80,26 +80,26 @@
     {
       "home_team": "España",
       "away_team": "Austria",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 3,
+      "away_goals": 0,
+      "decided_in": 90,
+      "qualified_team": "España"
     },
     {
       "home_team": "Portugal",
       "away_team": "Croacia",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 2,
+      "away_goals": 1,
+      "decided_in": 90,
+      "qualified_team": "Portugal"
     },
     {
       "home_team": "Suiza",
       "away_team": "Argelia",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 2,
+      "away_goals": 0,
+      "decided_in": 90,
+      "qualified_team": "Suiza"
     },
     {
       "home_team": "Australia",
