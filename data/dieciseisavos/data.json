@@ -104,26 +104,26 @@
     {
       "home_team": "Australia",
       "away_team": "Egipto",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 1,
+      "away_goals": 1,
+      "decided_in": "penalties",
+      "qualified_team": "Egipto"
     },
     {
       "home_team": "Argentina",
       "away_team": "Cabo Verde",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 3,
+      "away_goals": 2,
+      "decided_in": "extra_time",
+      "qualified_team": "Argentina"
     },
     {
       "home_team": "Colombia",
       "away_team": "Ghana",
-      "home_goals": null,
-      "away_goals": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 1,
+      "away_goals": 0,
+      "decided_in": 90,
+      "qualified_team": "Colombia"
     }
   ]
 }
