@@ -1,0 +1,1264 @@
+{
+  "round": "R16",
+  "total_participants": 16,
+  "matches": [
+    {
+      "home_team": "Brasil",
+      "away_team": "Noruega"
+    },
+    {
+      "home_team": "México",
+      "away_team": "Inglaterra"
+    },
+    {
+      "home_team": "Portugal",
+      "away_team": "España"
+    },
+    {
+      "home_team": "Estados Unidos",
+      "away_team": "Bélgica"
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Egipto"
+    },
+    {
+      "home_team": "Suiza",
+      "away_team": "Colombia"
+    }
+  ],
+  "participants": [
+    {
+      "mote": "Andrés (Iniesta de mi vida!)",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 46
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 10,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "México",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Inglaterra",
+          "predicted_yellow_cards_90": 1,
+          "predicted_corners_90": 15,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 0,
+          "predicted_corners_90": 11,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 1,
+          "predicted_corners_90": 18,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 15,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 17,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Maru",
+      "spain": {
+        "first_spain_goal": 3,
+        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 58
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 7,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "México",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana México",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Estados Unidos",
+          "predicted_yellow_cards_90": 0,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 7,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Suiza",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Suiza",
+          "predicted_yellow_cards_90": 1,
+          "predicted_corners_90": 6,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Guru",
+      "spain": {
+        "first_spain_goal": 5,
+        "first_spain_goal_label": "Prórroga",
+        "first_spain_scorer": "Álex Baena (Atlético de Madrid)",
+        "spain_possession": 54
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 6,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana México",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 5,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 5,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 7,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 4,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Colombia",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 4,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Felipon",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 57
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Mattias",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 62
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Inglaterra",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 9,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 8,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Suiza",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Suiza",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Iago Aspas",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 60
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "México",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana México",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 5,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 6,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 4,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 6,
+          "predicted_corners_90": 5,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 5,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "El Sabio de Hortaleza",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 61
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 6,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 7,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Colombia",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Marianin.Jr",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 58
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Estados Unidos",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 5,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 4,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "RaúlSelección",
+      "spain": {
+        "first_spain_goal": 3,
+        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 60
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 10,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 11,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Bélgica",
+          "predicted_yellow_cards_90": 6,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Amatxi",
+      "spain": {
+        "first_spain_goal": 3,
+        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 55
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 9,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Inglaterra",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 10,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 8,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 6,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Colombia",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Tim Payne",
+      "spain": {
+        "first_spain_goal": 1,
+        "first_spain_goal_label": "Entre el minuto 0 y la primera pausa de hidratación",
+        "first_spain_scorer": "Lamine Yamal (FC Barcelona)",
+        "spain_possession": 53
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Noruega",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "México",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana México",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 11,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Estados Unidos",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 10,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Colombia",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Camavinga",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 56
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 10,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 10,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Colombia",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "La sevillana",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 58
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 1,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 8,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 9,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 6,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Colombia",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 6,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Esteban de Lezo",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 61
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Brasil",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 13,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "México",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 12,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 14,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Estados Unidos",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Estados Unidos",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 13,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 14,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 12,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Tobigol",
+      "spain": {
+        "first_spain_goal": 3,
+        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 59
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 1,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Inglaterra",
+          "predicted_yellow_cards_90": 0,
+          "predicted_corners_90": 11,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 1,
+          "predicted_corners_90": 10,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana Bélgica",
+          "predicted_yellow_cards_90": 0,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 2,
+          "predicted_corners_90": 10,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Suiza",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 0,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        }
+      ]
+    },
+    {
+      "mote": "Beloncio",
+      "spain": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 60
+      },
+      "matches": [
+        {
+          "home_team": "Brasil",
+          "away_team": "Noruega",
+          "predicted_qualified_team": "Brasil",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 3,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "México",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 4,
+          "predicted_corners_90": 9,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Portugal",
+          "away_team": "España",
+          "predicted_qualified_team": "España",
+          "predicted_half_time": "2",
+          "predicted_half_time_result": "away",
+          "predicted_half_time_label": "Gana España",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 7,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Estados Unidos",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "Bélgica",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Estados Unidos",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 7,
+          "predicted_penalty": false
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Egipto",
+          "predicted_qualified_team": "Argentina",
+          "predicted_half_time": "1",
+          "predicted_half_time_result": "home",
+          "predicted_half_time_label": "Gana Argentina",
+          "predicted_yellow_cards_90": 6,
+          "predicted_corners_90": 10,
+          "predicted_penalty": true
+        },
+        {
+          "home_team": "Suiza",
+          "away_team": "Colombia",
+          "predicted_qualified_team": "Colombia",
+          "predicted_half_time": "X",
+          "predicted_half_time_result": "draw",
+          "predicted_half_time_label": "Empate",
+          "predicted_yellow_cards_90": 5,
+          "predicted_corners_90": 8,
+          "predicted_penalty": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "round": "R16",
+  "spain": {
+    "first_spain_goal": null,
+    "first_spain_scorer": null,
+    "spain_possession": null
+  },
+  "matches": [
+    {
+      "home_team": "Brasil",
+      "away_team": "Noruega",
+      "home_goals": 1,
+      "away_goals": 2,
+      "half_time_result": "draw",
+      "yellow_cards": 1,
+      "corners": 10,
+      "penalty_awarded": true,
+      "decided_in": 90,
+      "qualified_team": "Noruega"
+    },
+    {
+      "home_team": "México",
+      "away_team": "Inglaterra",
+      "home_goals": 2,
+      "away_goals": 3,
+      "half_time_result": "away",
+      "yellow_cards": 6,
+      "corners": 14,
+      "penalty_awarded": true,
+      "decided_in": 90,
+      "qualified_team": "Inglaterra"
+    },
+    {
+      "home_team": "Portugal",
+      "away_team": "España",
+      "home_goals": null,
+      "away_goals": null,
+      "half_time_result": null,
+      "yellow_cards": null,
+      "corners": null,
+      "penalty_awarded": null,
+      "decided_in": 90,
+      "qualified_team": null
+    },
+    {
+      "home_team": "Estados Unidos",
+      "away_team": "Bélgica",
+      "home_goals": null,
+      "away_goals": null,
+      "half_time_result": null,
+      "yellow_cards": null,
+      "corners": null,
+      "penalty_awarded": null,
+      "decided_in": 90,
+      "qualified_team": null
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Egipto",
+      "home_goals": null,
+      "away_goals": null,
+      "half_time_result": null,
+      "yellow_cards": null,
+      "corners": null,
+      "penalty_awarded": null,
+      "decided_in": 90,
+      "qualified_team": null
+    },
+    {
+      "home_team": "Suiza",
+      "away_team": "Colombia",
+      "home_goals": null,
+      "away_goals": null,
+      "half_time_result": null,
+      "yellow_cards": null,
+      "corners": null,
+      "penalty_awarded": null,
+      "decided_in": 90,
+      "qualified_team": null
+    }
+  ]
+}

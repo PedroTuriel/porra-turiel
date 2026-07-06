@@ -14,10 +14,15 @@ GROUP_STAGE_DIR = DATA_DIR / "fase_grupos"
 GROUP_STAGE_RESULTS_FILE = GROUP_STAGE_DIR / "results.json"
 GROUP_STAGE_STANDINGS_FILE = GROUP_STAGE_DIR / "standings.json"
 
-# Dieciseisavos, dinamico
+# Dieciseisavos, congelado / estatico
 R32_DIR = DATA_DIR / "dieciseisavos"
 R32_LEADERBOARD_FILE = R32_DIR / "leaderboard_dieciseisavos.json"
 R32_RESULTS_FILE = R32_DIR / "data.json"
+
+# Octavos, dinamico
+R16_DIR = DATA_DIR / "octavos"
+R16_LEADERBOARD_FILE = R16_DIR / "leaderboard_octavos.json"
+R16_RESULTS_FILE = R16_DIR / "data.json"
 
 
 TEAM_ES = {
@@ -100,6 +105,42 @@ SPAIN_GOAL_WINDOWS = {
 }
 
 
+HALF_TIME_ES = {
+    None: "Pendiente",
+    "home": "Gana el equipo local",
+    "draw": "Empate",
+    "away": "Gana el equipo visitante",
+    "1": "Gana el equipo local",
+    "x": "Empate",
+    "2": "Gana el equipo visitante",
+}
+
+PENALTY_ES = {
+    None: "Pendiente",
+    True: "Sí",
+    False: "No",
+    "true": "Sí",
+    "false": "No",
+    "si": "Sí",
+    "sí": "Sí",
+    "no": "No",
+}
+
+
+def half_time_label(value: Any) -> str:
+    if value is None:
+        return "Pendiente"
+    return HALF_TIME_ES.get(value, HALF_TIME_ES.get(str(value).lower(), str(value)))
+
+
+def penalty_label(value: Any) -> str:
+    if value is None:
+        return "Pendiente"
+    if isinstance(value, bool):
+        return PENALTY_ES[value]
+    return PENALTY_ES.get(str(value).lower(), str(value))
+
+
 def read_json(path: Path, default: Any) -> Any:
     if not path.exists():
         print(f"Aviso: no existe {path}. Se usará valor vacío.")
@@ -164,11 +205,42 @@ def enrich_r32_leaderboard(leaderboard: List[Dict[str, Any]], r32_results: Dict[
     return leaderboard
 
 
+def enrich_r16_leaderboard(leaderboard: List[Dict[str, Any]], r16_results: Dict[str, Any]) -> List[Dict[str, Any]]:
+    for idx, row in enumerate(leaderboard, start=1):
+        row.setdefault("position", idx)
+        row["display_name"] = row.get("participant") or row.get("name") or "Sin nombre"
+
+        for detail in row.get("match_detail", []):
+            prediction = detail.get("prediction", {})
+            real = detail.get("real", {})
+
+            prediction["qualified_team_es"] = team_es(prediction.get("qualified_team"))
+            real["qualified_team_es"] = team_es(real.get("qualified_team"))
+
+            prediction["half_time_result_es"] = half_time_label(prediction.get("half_time_result"))
+            real["half_time_result_es"] = half_time_label(real.get("half_time_result"))
+
+            prediction["penalty_es"] = penalty_label(prediction.get("penalty"))
+            real["penalty_es"] = penalty_label(real.get("penalty"))
+
+        spain_detail = row.get("spain_detail", {})
+        prediction = spain_detail.get("prediction", {})
+        real = spain_detail.get("real", {})
+        prediction["first_spain_goal_label"] = SPAIN_GOAL_WINDOWS.get(prediction.get("first_spain_goal"), prediction.get("first_spain_goal", "-"))
+        real["first_spain_goal_label"] = SPAIN_GOAL_WINDOWS.get(real.get("first_spain_goal"), real.get("first_spain_goal", "-"))
+    return leaderboard
+
+
 def build_app_data() -> Dict[str, Any]:
     group_results = read_json(GROUP_STAGE_RESULTS_FILE, {"ranking": []})
     group_standings = read_json(GROUP_STAGE_STANDINGS_FILE, {"groups": {}})
+
     r32_leaderboard = read_json(R32_LEADERBOARD_FILE, [])
     r32_results = read_json(R32_RESULTS_FILE, {"round": "R32", "spain": {}, "matches": []})
+
+    r16_leaderboard = read_json(R16_LEADERBOARD_FILE, [])
+    r16_results = read_json(R16_RESULTS_FILE, {"round": "R16", "spain": {}, "matches": []})
+
     generated_at = datetime.now().strftime("%d/%m/%Y %H:%M")
 
     return {
@@ -180,6 +252,13 @@ def build_app_data() -> Dict[str, Any]:
             "leaderboard": enrich_r32_leaderboard(r32_leaderboard, r32_results),
             "results": {
               **r32_results,
+              "generated_at": generated_at,
+            },
+        },
+        "r16": {
+            "leaderboard": enrich_r16_leaderboard(r16_leaderboard, r16_results),
+            "results": {
+              **r16_results,
               "generated_at": generated_at,
             },
         },
@@ -495,10 +574,10 @@ def generate_html(app_data: Dict[str, Any]) -> str:
       <div class="hero-card">
         <div class="eyebrow">Mundial 2026</div>
         <h1>La Porra<br>Turiel 2026</h1>
-        <div class="subtitle">Dieciseisavos</div>
+        <div class="subtitle">Octavos de final</div>
         <div class="hero-stats">
           <div class="stat"><strong id="statParticipants">0</strong><span>Participantes</span></div>
-          <div class="stat"><strong id="statLeader">-</strong><span>Líder dieciseisavos</span></div>
+          <div class="stat"><strong id="statLeader">-</strong><span>Líder octavos</span></div>
           <div class="stat"><strong id="statUpdated">-</strong><span>Última actualización</span></div>
         </div>
       </div>
@@ -507,13 +586,47 @@ def generate_html(app_data: Dict[str, Any]) -> str:
 
   <div class="tabs-bar">
     <div class="container tabs-inner">
-      <button class="tab-button active" data-tab="r32Tab">Dieciseisavos</button>
+      <button class="tab-button active" data-tab="r16Tab">Octavos</button>
+      <button class="tab-button" data-tab="r32Tab">Dieciseisavos</button>
       <button class="tab-button" data-tab="groupsTab">Fase de grupos</button>
     </div>
   </div>
 
   <main>
-    <div id="r32Tab" class="tab-panel active">
+    <div id="r16Tab" class="tab-panel active">
+      <section id="r16Clasificacion">
+        <div class="container">
+          <div class="section-title">
+            <h2>Clasificación octavos</h2>
+            <span class="pill">Actualización dinámica</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Posición</th><th>Participante</th><th>Total</th><th>Partidos</th><th>España</th></tr>
+              </thead>
+              <tbody id="r16RankingTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="r16Detalle">
+        <div class="container">
+          <div class="section-title">
+            <h2>Detalle por participante</h2>
+            <span class="pill">Predicción vs realidad</span>
+          </div>
+          <div class="selector-box"><select id="r16ParticipantSelect"></select></div>
+          <div class="detail-layout">
+            <aside class="profile-card" id="r16ParticipantSummary"></aside>
+            <div id="r16ParticipantMatches" class="cards-grid"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="r32Tab" class="tab-panel">
       <section id="r32Clasificacion">
         <div class="container">
           <div class="section-title">
@@ -594,6 +707,24 @@ def generate_html(app_data: Dict[str, Any]) -> str:
         <div class="section-title"><h2>Reglas de puntuación</h2></div>
         <div class="rules">
           <details open>
+            <summary>Octavos: máximo 15 puntos por partido</summary>
+            <ul>
+              <li>Acertar la selección que se clasifica: <strong>5 puntos</strong></li>
+              <li>Acertar cómo acaba la primera parte: <strong>2 puntos</strong></li>
+              <li>Tarjetas amarillas en 90 minutos: exacto <strong>3</strong>, diferencia de 1 <strong>2</strong>, diferencia de 2 <strong>1</strong></li>
+              <li>Córners en 90 minutos: exacto <strong>3</strong>, diferencia de 1 <strong>2</strong>, diferencia de 2 <strong>1</strong></li>
+              <li>Acertar si habrá penalti durante el partido: <strong>2 puntos</strong></li>
+            </ul>
+          </details>
+          <details>
+            <summary>Preguntas de España en octavos</summary>
+            <ul>
+              <li>Primer gol de España: franja exacta <strong>5 puntos</strong>, franja anterior/posterior <strong>3 puntos</strong></li>
+              <li>Primer goleador de España: <strong>5 puntos</strong></li>
+              <li>Posesión de España: exacta <strong>5 puntos</strong>; los dos más cercanos sin acierto exacto <strong>3 puntos</strong></li>
+            </ul>
+          </details>
+          <details>
             <summary>Dieciseisavos: máximo 10 puntos por partido</summary>
             <ul>
               <li>Acertar el equipo que se clasifica: <strong>6 puntos</strong></li>
@@ -644,16 +775,96 @@ def generate_html(app_data: Dict[str, Any]) -> str:
     }}
 
     function initHero() {{
-      const ranking = APP_DATA.r32.leaderboard || [];
+      const ranking = APP_DATA.r16.leaderboard || [];
       document.getElementById("statParticipants").textContent = ranking.length;
       document.getElementById("statLeader").textContent = ranking[0]?.display_name || "-";
-      document.getElementById("statUpdated").textContent = APP_DATA.r32.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
+      document.getElementById("statUpdated").textContent = APP_DATA.r16.generated_at || APP_DATA.r16.results?.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
+    }}
+
+    function renderR16Ranking() {{
+      const tbody = document.getElementById("r16RankingTable");
+      const ranking = APP_DATA.r16.leaderboard || [];
+      const eliminatedStartIndex = Math.max(ranking.length - 8, 0);
+
+      tbody.innerHTML = ranking.map((p, index) => {{
+        const isEliminated = index >= eliminatedStartIndex;
+        return `
+          <tr class="${{isEliminated ? "eliminated-row" : ""}}">
+            <td><strong>${{medal(p.position || index + 1)}}</strong></td>
+            <td><strong>${{escapeHtml(p.display_name)}}</strong></td>
+            <td><strong>${{pts(p.total_points)}}</strong></td>
+            <td>${{pts(p.match_points)}}</td>
+            <td>${{pts(p.spain_points)}}</td>
+          </tr>
+        `;
+      }}).join("");
+    }}
+
+    function renderR16Selector() {{
+      const select = document.getElementById("r16ParticipantSelect");
+      const ranking = APP_DATA.r16.leaderboard || [];
+      select.innerHTML = ranking.map((p, index) => `<option value="${{index}}">${{p.position || index + 1}}. ${{escapeHtml(p.display_name)}} - ${{pts(p.total_points)}}</option>`).join("");
+      select.addEventListener("change", () => renderR16Detail(Number(select.value)));
+      if (ranking.length) renderR16Detail(0);
+    }}
+
+    function renderR16Detail(index) {{
+      const participant = (APP_DATA.r16.leaderboard || [])[index];
+      if (!participant) return;
+      const summary = document.getElementById("r16ParticipantSummary");
+      const matches = document.getElementById("r16ParticipantMatches");
+      const spain = participant.spain_detail || {{}};
+      const spainPred = spain.prediction || {{}};
+      const spainReal = spain.real || {{}};
+
+      summary.innerHTML = `
+        <h3>${{escapeHtml(participant.display_name)}}</h3>
+        <div class="pill">Puesto ${{participant.position}}</div>
+        <div class="big-score">${{participant.total_points}} pts</div>
+        <div class="breakdown"><span>Partidos: ${{participant.match_points}}</span><span>España: ${{participant.spain_points}}</span></div>
+        <hr style="border-color: rgba(255,255,255,.08); margin: 18px 0;" />
+        <h4 style="color: var(--gold2); margin-bottom: 8px;">España</h4>
+        <p class="mini-line"><b>Primer gol:</b> ${{escapeHtml(spainPred.first_spain_goal_label || spainPred.first_spain_goal)}} → real: ${{escapeHtml(spainReal.first_spain_goal_label || spainReal.first_spain_goal)}} <strong>(${{spain.first_spain_goal_points || 0}} pts)</strong></p>
+        <p class="mini-line"><b>Primer goleador:</b> ${{escapeHtml(spainPred.first_spain_scorer)}} → real: ${{escapeHtml(spainReal.first_spain_scorer)}} <strong>(${{spain.first_spain_scorer_points || 0}} pts)</strong></p>
+        <p class="mini-line"><b>Posesión:</b> ${{escapeHtml(spainPred.spain_possession)}}% → real: ${{escapeHtml(spainReal.spain_possession)}}% <strong>(${{spain.spain_possession_points || 0}} pts)</strong></p>
+      `;
+
+      matches.innerHTML = (participant.match_detail || []).map((m) => {{
+        const pred = m.prediction || {{}};
+        const real = m.real || {{}};
+        const pending = !!m.warning;
+        return `
+          <article class="card">
+            <header><h4>${{escapeHtml(m.match)}}</h4><span class="badge ${{pending ? "pending" : ""}}">${{m.points || 0}} pts</span></header>
+            ${{pending ? `<p class="mini-line">${{escapeHtml(m.warning)}}</p>` : ""}}
+            <div class="comparison">
+              <div>
+                <strong>Predicción</strong>
+                <p class="mini-line">Clasificado: <b>${{escapeHtml(pred.qualified_team_es || pred.qualified_team)}}</b></p>
+                <p class="mini-line">Descanso: <b>${{escapeHtml(pred.half_time_result_es || pred.half_time_result)}}</b></p>
+                <p class="mini-line">Amarillas: <b>${{escapeHtml(pred.yellow_cards_90)}}</b></p>
+                <p class="mini-line">Córners: <b>${{escapeHtml(pred.corners_90)}}</b></p>
+                <p class="mini-line">Penalti: <b>${{escapeHtml(pred.penalty_es || pred.penalty)}}</b></p>
+              </div>
+              <div>
+                <strong>Real</strong>
+                <p class="mini-line">Clasificado: <b>${{escapeHtml(real.qualified_team_es || real.qualified_team || "Pendiente")}}</b></p>
+                <p class="mini-line">Descanso: <b>${{escapeHtml(real.half_time_result_es || real.half_time_result || "Pendiente")}}</b></p>
+                <p class="mini-line">Amarillas: <b>${{escapeHtml(real.yellow_cards_90 ?? "Pendiente")}}</b></p>
+                <p class="mini-line">Córners: <b>${{escapeHtml(real.corners_90 ?? "Pendiente")}}</b></p>
+                <p class="mini-line">Penalti: <b>${{escapeHtml(real.penalty_es || real.penalty || "Pendiente")}}</b></p>
+              </div>
+            </div>
+            <div class="breakdown"><span>Clasificado: ${{m.qualified_points || 0}}</span><span>Descanso: ${{m.half_time_points || 0}}</span><span>Amarillas: ${{m.yellow_cards_points || 0}}</span><span>Córners: ${{m.corners_points || 0}}</span><span>Penalti: ${{m.penalty_points || 0}}</span></div>
+          </article>
+        `;
+      }}).join("");
     }}
 
     function renderR32Ranking() {{
       const tbody = document.getElementById("r32RankingTable");
       const ranking = APP_DATA.r32.leaderboard || [];
-      const eliminatedStartIndex = Math.max(ranking.length - 3, 0);
+      const eliminatedStartIndex = ranking.length + 1;
 
       tbody.innerHTML = ranking.map((p, index) => {{
         const isEliminated = index >= eliminatedStartIndex;
@@ -795,6 +1006,8 @@ def generate_html(app_data: Dict[str, Any]) -> str:
 
     setupTabs();
     initHero();
+    renderR16Ranking();
+    renderR16Selector();
     renderR32Ranking();
     renderR32Selector();
     renderGroupRanking();
