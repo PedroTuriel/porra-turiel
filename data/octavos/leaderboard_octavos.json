@@ -1,102 +1,11 @@
 [
   {
-    "participant": "Amatxi",
-    "total_points": 15,
-    "match_points": 15,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
-      "prediction": {
-        "first_spain_goal": 3,
-        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
-        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 55
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Brasil - Noruega",
-        "points": 7,
-        "qualified_points": 0,
-        "half_time_points": 2,
-        "yellow_cards_points": 1,
-        "corners_points": 2,
-        "penalty_points": 2,
-        "prediction": {
-          "qualified_team": "Brasil",
-          "half_time_result": "draw",
-          "yellow_cards_90": 3,
-          "corners_90": 9,
-          "penalty": true
-        },
-        "real": {
-          "qualified_team": "Noruega",
-          "half_time_result": "draw",
-          "yellow_cards_90": 1,
-          "corners_90": 10,
-          "penalty": true
-        }
-      },
-      {
-        "match": "México - Inglaterra",
-        "points": 8,
-        "qualified_points": 5,
-        "half_time_points": 2,
-        "yellow_cards_points": 1,
-        "corners_points": 0,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 4,
-          "corners_90": 10,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 6,
-          "corners_90": 14,
-          "penalty": true
-        }
-      },
-      {
-        "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Argentina - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Suiza - Colombia",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      }
-    ],
-    "position": 1
-  },
-  {
     "participant": "Tobigol",
-    "total_points": 14,
-    "match_points": 14,
-    "spain_points": 0,
+    "total_points": 42,
+    "match_points": 39,
+    "spain_points": 3,
     "spain_detail": {
-      "first_spain_goal_points": 0,
+      "first_spain_goal_points": 3,
       "first_spain_scorer_points": 0,
       "spain_possession_points": 0,
       "prediction": {
@@ -106,9 +15,9 @@
         "spain_possession": 59
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -160,13 +69,176 @@
       },
       {
         "match": "Portugal - España",
+        "points": 13,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 1,
+        "corners_points": 3,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 12,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 0,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Argentina - Egipto",
         "points": 0,
         "warning": "Partido pendiente o con campos incompletos en data.json"
       },
       {
-        "match": "Estados Unidos - Bélgica",
+        "match": "Suiza - Colombia",
         "points": 0,
         "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Amatxi",
+    "total_points": 37,
+    "match_points": 34,
+    "spain_points": 3,
+    "spain_detail": {
+      "first_spain_goal_points": 3,
+      "first_spain_scorer_points": 0,
+      "spain_possession_points": 0,
+      "prediction": {
+        "first_spain_goal": 3,
+        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 55
+      },
+      "real": {
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Noruega",
+        "points": 7,
+        "qualified_points": 0,
+        "half_time_points": 2,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Brasil",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 9,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "Noruega",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": true
+        }
+      },
+      {
+        "match": "México - Inglaterra",
+        "points": 8,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 4,
+          "corners_90": 10,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 14,
+          "penalty": true
+        }
+      },
+      {
+        "match": "Portugal - España",
+        "points": 8,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 2,
+        "corners_points": 1,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 11,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 1,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "draw",
+          "yellow_cards_90": 2,
+          "corners_90": 6,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -182,24 +254,24 @@
     "position": 2
   },
   {
-    "participant": "Mattias",
-    "total_points": 11,
-    "match_points": 11,
-    "spain_points": 0,
+    "participant": "RaúlSelección",
+    "total_points": 36,
+    "match_points": 33,
+    "spain_points": 3,
     "spain_detail": {
-      "first_spain_goal_points": 0,
+      "first_spain_goal_points": 3,
       "first_spain_scorer_points": 0,
       "spain_possession_points": 0,
       "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_goal": 3,
+        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
         "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 62
+        "spain_possession": 60
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -209,104 +281,13 @@
         "qualified_points": 0,
         "half_time_points": 0,
         "yellow_cards_points": 1,
-        "corners_points": 1,
-        "penalty_points": 2,
+        "corners_points": 3,
+        "penalty_points": 0,
         "prediction": {
           "qualified_team": "Brasil",
           "half_time_result": "home",
           "yellow_cards_90": 3,
-          "corners_90": 8,
-          "penalty": true
-        },
-        "real": {
-          "qualified_team": "Noruega",
-          "half_time_result": "draw",
-          "yellow_cards_90": 1,
           "corners_90": 10,
-          "penalty": true
-        }
-      },
-      {
-        "match": "México - Inglaterra",
-        "points": 7,
-        "qualified_points": 5,
-        "half_time_points": 2,
-        "yellow_cards_points": 0,
-        "corners_points": 0,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 2,
-          "corners_90": 7,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 6,
-          "corners_90": 14,
-          "penalty": true
-        }
-      },
-      {
-        "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Argentina - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Suiza - Colombia",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      }
-    ],
-    "position": 3
-  },
-  {
-    "participant": "Beloncio",
-    "total_points": 11,
-    "match_points": 11,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
-        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 60
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Brasil - Noruega",
-        "points": 5,
-        "qualified_points": 0,
-        "half_time_points": 2,
-        "yellow_cards_points": 1,
-        "corners_points": 2,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Brasil",
-          "half_time_result": "draw",
-          "yellow_cards_90": 3,
-          "corners_90": 9,
           "penalty": false
         },
         "real": {
@@ -329,6 +310,133 @@
           "qualified_team": "Inglaterra",
           "half_time_result": "draw",
           "yellow_cards_90": 4,
+          "corners_90": 11,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 14,
+          "penalty": true
+        }
+      },
+      {
+        "match": "Portugal - España",
+        "points": 12,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 5,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 11,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 0,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Argentina - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Suiza - Colombia",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 3
+  },
+  {
+    "participant": "Felipon",
+    "total_points": 35,
+    "match_points": 35,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_scorer_points": 0,
+      "spain_possession_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 57
+      },
+      "real": {
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Noruega",
+        "points": 4,
+        "qualified_points": 0,
+        "half_time_points": 2,
+        "yellow_cards_points": 0,
+        "corners_points": 2,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Brasil",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Noruega",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": true
+        }
+      },
+      {
+        "match": "México - Inglaterra",
+        "points": 5,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 0,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
           "corners_90": 9,
           "penalty": false
         },
@@ -342,13 +450,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 14,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 3,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 12,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 2,
+        "corners_points": 3,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 8,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -365,13 +509,13 @@
   },
   {
     "participant": "Guru",
-    "total_points": 10,
-    "match_points": 10,
-    "spain_points": 0,
+    "total_points": 31,
+    "match_points": 25,
+    "spain_points": 6,
     "spain_detail": {
-      "first_spain_goal_points": 0,
+      "first_spain_goal_points": 3,
       "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
+      "spain_possession_points": 3,
       "prediction": {
         "first_spain_goal": 5,
         "first_spain_goal_label": "Prórroga",
@@ -379,9 +523,9 @@
         "spain_possession": 54
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -433,13 +577,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 12,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 3,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 5,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 3,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 7,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -455,24 +635,24 @@
     "position": 5
   },
   {
-    "participant": "RaúlSelección",
-    "total_points": 10,
-    "match_points": 10,
+    "participant": "Mattias",
+    "total_points": 31,
+    "match_points": 31,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
       "first_spain_scorer_points": 0,
       "spain_possession_points": 0,
       "prediction": {
-        "first_spain_goal": 3,
-        "first_spain_goal_label": "Entre el descanso y la segunda pausa de hidratación",
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
         "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 60
+        "spain_possession": 62
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -482,14 +662,14 @@
         "qualified_points": 0,
         "half_time_points": 0,
         "yellow_cards_points": 1,
-        "corners_points": 3,
-        "penalty_points": 0,
+        "corners_points": 1,
+        "penalty_points": 2,
         "prediction": {
           "qualified_team": "Brasil",
           "half_time_result": "home",
           "yellow_cards_90": 3,
-          "corners_90": 10,
-          "penalty": false
+          "corners_90": 8,
+          "penalty": true
         },
         "real": {
           "qualified_team": "Noruega",
@@ -501,17 +681,17 @@
       },
       {
         "match": "México - Inglaterra",
-        "points": 6,
+        "points": 7,
         "qualified_points": 5,
-        "half_time_points": 0,
-        "yellow_cards_points": 1,
+        "half_time_points": 2,
+        "yellow_cards_points": 0,
         "corners_points": 0,
         "penalty_points": 0,
         "prediction": {
           "qualified_team": "Inglaterra",
-          "half_time_result": "draw",
-          "yellow_cards_90": 4,
-          "corners_90": 11,
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 7,
           "penalty": false
         },
         "real": {
@@ -524,13 +704,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 10,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 2,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 3,
+          "corners_90": 9,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 10,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -547,13 +763,13 @@
   },
   {
     "participant": "Andrés (Iniesta de mi vida!)",
-    "total_points": 9,
-    "match_points": 9,
-    "spain_points": 0,
+    "total_points": 28,
+    "match_points": 25,
+    "spain_points": 3,
     "spain_detail": {
       "first_spain_goal_points": 0,
       "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
+      "spain_possession_points": 3,
       "prediction": {
         "first_spain_goal": 2,
         "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
@@ -561,9 +777,9 @@
         "spain_possession": 46
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -615,13 +831,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 9,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 0,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 0,
+          "corners_90": 11,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 7,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 2,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 18,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -637,282 +889,9 @@
     "position": 7
   },
   {
-    "participant": "Felipon",
-    "total_points": 9,
-    "match_points": 9,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
-        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 57
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Brasil - Noruega",
-        "points": 4,
-        "qualified_points": 0,
-        "half_time_points": 2,
-        "yellow_cards_points": 0,
-        "corners_points": 2,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Brasil",
-          "half_time_result": "draw",
-          "yellow_cards_90": 4,
-          "corners_90": 9,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Noruega",
-          "half_time_result": "draw",
-          "yellow_cards_90": 1,
-          "corners_90": 10,
-          "penalty": true
-        }
-      },
-      {
-        "match": "México - Inglaterra",
-        "points": 5,
-        "qualified_points": 5,
-        "half_time_points": 0,
-        "yellow_cards_points": 0,
-        "corners_points": 0,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "draw",
-          "yellow_cards_90": 3,
-          "corners_90": 9,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 6,
-          "corners_90": 14,
-          "penalty": true
-        }
-      },
-      {
-        "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Argentina - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Suiza - Colombia",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      }
-    ],
-    "position": 8
-  },
-  {
-    "participant": "Camavinga",
-    "total_points": 9,
-    "match_points": 9,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
-        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 56
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Brasil - Noruega",
-        "points": 2,
-        "qualified_points": 0,
-        "half_time_points": 0,
-        "yellow_cards_points": 0,
-        "corners_points": 2,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Brasil",
-          "half_time_result": "home",
-          "yellow_cards_90": 4,
-          "corners_90": 9,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Noruega",
-          "half_time_result": "draw",
-          "yellow_cards_90": 1,
-          "corners_90": 10,
-          "penalty": true
-        }
-      },
-      {
-        "match": "México - Inglaterra",
-        "points": 7,
-        "qualified_points": 5,
-        "half_time_points": 0,
-        "yellow_cards_points": 2,
-        "corners_points": 0,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "draw",
-          "yellow_cards_90": 5,
-          "corners_90": 10,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 6,
-          "corners_90": 14,
-          "penalty": true
-        }
-      },
-      {
-        "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Argentina - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Suiza - Colombia",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      }
-    ],
-    "position": 9
-  },
-  {
-    "participant": "El Sabio de Hortaleza",
-    "total_points": 8,
-    "match_points": 8,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
-        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 61
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Brasil - Noruega",
-        "points": 3,
-        "qualified_points": 0,
-        "half_time_points": 2,
-        "yellow_cards_points": 0,
-        "corners_points": 1,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Brasil",
-          "half_time_result": "draw",
-          "yellow_cards_90": 4,
-          "corners_90": 8,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Noruega",
-          "half_time_result": "draw",
-          "yellow_cards_90": 1,
-          "corners_90": 10,
-          "penalty": true
-        }
-      },
-      {
-        "match": "México - Inglaterra",
-        "points": 5,
-        "qualified_points": 5,
-        "half_time_points": 0,
-        "yellow_cards_points": 0,
-        "corners_points": 0,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "draw",
-          "yellow_cards_90": 3,
-          "corners_90": 6,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 6,
-          "corners_90": 14,
-          "penalty": true
-        }
-      },
-      {
-        "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Argentina - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Suiza - Colombia",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      }
-    ],
-    "position": 10
-  },
-  {
     "participant": "La sevillana",
-    "total_points": 8,
-    "match_points": 8,
+    "total_points": 28,
+    "match_points": 28,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -925,9 +904,9 @@
         "spain_possession": 58
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -979,13 +958,430 @@
       },
       {
         "match": "Portugal - España",
+        "points": 10,
+        "qualified_points": 5,
+        "half_time_points": 2,
+        "yellow_cards_points": 2,
+        "corners_points": 1,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 10,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 2,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "draw",
+          "yellow_cards_90": 2,
+          "corners_90": 9,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Argentina - Egipto",
         "points": 0,
         "warning": "Partido pendiente o con campos incompletos en data.json"
       },
       {
-        "match": "Estados Unidos - Bélgica",
+        "match": "Suiza - Colombia",
         "points": 0,
         "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 8
+  },
+  {
+    "participant": "Beloncio",
+    "total_points": 26,
+    "match_points": 26,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_scorer_points": 0,
+      "spain_possession_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 60
+      },
+      "real": {
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Noruega",
+        "points": 5,
+        "qualified_points": 0,
+        "half_time_points": 2,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Brasil",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Noruega",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": true
+        }
+      },
+      {
+        "match": "México - Inglaterra",
+        "points": 6,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 14,
+          "penalty": true
+        }
+      },
+      {
+        "match": "Portugal - España",
+        "points": 6,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 5,
+          "corners_90": 7,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 9,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 0,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "home",
+          "yellow_cards_90": 5,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Argentina - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Suiza - Colombia",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 9
+  },
+  {
+    "participant": "El Sabio de Hortaleza",
+    "total_points": 25,
+    "match_points": 25,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_scorer_points": 0,
+      "spain_possession_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 61
+      },
+      "real": {
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Noruega",
+        "points": 3,
+        "qualified_points": 0,
+        "half_time_points": 2,
+        "yellow_cards_points": 0,
+        "corners_points": 1,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Brasil",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 8,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Noruega",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": true
+        }
+      },
+      {
+        "match": "México - Inglaterra",
+        "points": 5,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 0,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 6,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 14,
+          "penalty": true
+        }
+      },
+      {
+        "match": "Portugal - España",
+        "points": 10,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 3,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 7,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 2,
+        "corners_points": 3,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 8,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Argentina - Egipto",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Suiza - Colombia",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 10
+  },
+  {
+    "participant": "Camavinga",
+    "total_points": 25,
+    "match_points": 25,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_scorer_points": 0,
+      "spain_possession_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 56
+      },
+      "real": {
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Noruega",
+        "points": 2,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 0,
+        "corners_points": 2,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Brasil",
+          "half_time_result": "home",
+          "yellow_cards_90": 4,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Noruega",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": true
+        }
+      },
+      {
+        "match": "México - Inglaterra",
+        "points": 7,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 2,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "draw",
+          "yellow_cards_90": 5,
+          "corners_90": 10,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 14,
+          "penalty": true
+        }
+      },
+      {
+        "match": "Portugal - España",
+        "points": 11,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 3,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 5,
+          "corners_90": 10,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 5,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 9,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -1002,11 +1398,11 @@
   },
   {
     "participant": "Maru",
-    "total_points": 6,
-    "match_points": 6,
-    "spain_points": 0,
+    "total_points": 24,
+    "match_points": 21,
+    "spain_points": 3,
     "spain_detail": {
-      "first_spain_goal_points": 0,
+      "first_spain_goal_points": 3,
       "first_spain_scorer_points": 0,
       "spain_possession_points": 0,
       "prediction": {
@@ -1016,9 +1412,9 @@
         "spain_possession": 58
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -1070,13 +1466,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 10,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 3,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 5,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "home",
+          "yellow_cards_90": 0,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -1093,8 +1525,8 @@
   },
   {
     "participant": "Marianin.Jr",
-    "total_points": 6,
-    "match_points": 6,
+    "total_points": 24,
+    "match_points": 24,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1107,9 +1539,9 @@
         "spain_possession": 58
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -1161,13 +1593,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 11,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 1,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 3,
+          "corners_90": 8,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 7,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 2,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "home",
+          "yellow_cards_90": 2,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -1183,105 +1651,14 @@
     "position": 13
   },
   {
-    "participant": "Esteban de Lezo",
-    "total_points": 5,
-    "match_points": 5,
-    "spain_points": 0,
-    "spain_detail": {
-      "first_spain_goal_points": 0,
-      "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
-      "prediction": {
-        "first_spain_goal": 2,
-        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
-        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
-        "spain_possession": 61
-      },
-      "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
-      }
-    },
-    "match_detail": [
-      {
-        "match": "Brasil - Noruega",
-        "points": 1,
-        "qualified_points": 0,
-        "half_time_points": 0,
-        "yellow_cards_points": 1,
-        "corners_points": 0,
-        "penalty_points": 0,
-        "prediction": {
-          "qualified_team": "Brasil",
-          "half_time_result": "home",
-          "yellow_cards_90": 3,
-          "corners_90": 13,
-          "penalty": false
-        },
-        "real": {
-          "qualified_team": "Noruega",
-          "half_time_result": "draw",
-          "yellow_cards_90": 1,
-          "corners_90": 10,
-          "penalty": true
-        }
-      },
-      {
-        "match": "México - Inglaterra",
-        "points": 4,
-        "qualified_points": 0,
-        "half_time_points": 0,
-        "yellow_cards_points": 1,
-        "corners_points": 1,
-        "penalty_points": 2,
-        "prediction": {
-          "qualified_team": "México",
-          "half_time_result": "draw",
-          "yellow_cards_90": 4,
-          "corners_90": 12,
-          "penalty": true
-        },
-        "real": {
-          "qualified_team": "Inglaterra",
-          "half_time_result": "away",
-          "yellow_cards_90": 6,
-          "corners_90": 14,
-          "penalty": true
-        }
-      },
-      {
-        "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Argentina - Egipto",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      },
-      {
-        "match": "Suiza - Colombia",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
-      }
-    ],
-    "position": 14
-  },
-  {
     "participant": "Tim Payne",
-    "total_points": 4,
-    "match_points": 4,
-    "spain_points": 0,
+    "total_points": 24,
+    "match_points": 21,
+    "spain_points": 3,
     "spain_detail": {
       "first_spain_goal_points": 0,
       "first_spain_scorer_points": 0,
-      "spain_possession_points": 0,
+      "spain_possession_points": 3,
       "prediction": {
         "first_spain_goal": 1,
         "first_spain_goal_label": "Entre el minuto 0 y la primera pausa de hidratación",
@@ -1289,9 +1666,9 @@
         "spain_possession": 53
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -1343,13 +1720,49 @@
       },
       {
         "match": "Portugal - España",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 9,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 2,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 4,
+          "corners_90": 7,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
       },
       {
         "match": "Estados Unidos - Bélgica",
-        "points": 0,
-        "warning": "Partido pendiente o con campos incompletos en data.json"
+        "points": 8,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 3,
+        "corners_points": 3,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "home",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",
@@ -1362,12 +1775,12 @@
         "warning": "Partido pendiente o con campos incompletos en data.json"
       }
     ],
-    "position": 15
+    "position": 14
   },
   {
     "participant": "Iago Aspas",
-    "total_points": 3,
-    "match_points": 3,
+    "total_points": 14,
+    "match_points": 14,
     "spain_points": 0,
     "spain_detail": {
       "first_spain_goal_points": 0,
@@ -1380,9 +1793,9 @@
         "spain_possession": 60
       },
       "real": {
-        "first_spain_goal": null,
-        "first_spain_scorer": null,
-        "spain_possession": null
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
       }
     },
     "match_detail": [
@@ -1434,13 +1847,176 @@
       },
       {
         "match": "Portugal - España",
+        "points": 8,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 5,
+          "corners_90": 6,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 3,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 4,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Argentina - Egipto",
         "points": 0,
         "warning": "Partido pendiente o con campos incompletos en data.json"
       },
       {
-        "match": "Estados Unidos - Bélgica",
+        "match": "Suiza - Colombia",
         "points": 0,
         "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 15
+  },
+  {
+    "participant": "Esteban de Lezo",
+    "total_points": 14,
+    "match_points": 14,
+    "spain_points": 0,
+    "spain_detail": {
+      "first_spain_goal_points": 0,
+      "first_spain_scorer_points": 0,
+      "spain_possession_points": 0,
+      "prediction": {
+        "first_spain_goal": 2,
+        "first_spain_goal_label": "Entre la primera pausa de hidratación y el descanso",
+        "first_spain_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_possession": 61
+      },
+      "real": {
+        "first_spain_goal": 4,
+        "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+        "spain_possession": 50
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Brasil - Noruega",
+        "points": 1,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "Brasil",
+          "half_time_result": "home",
+          "yellow_cards_90": 3,
+          "corners_90": 13,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Noruega",
+          "half_time_result": "draw",
+          "yellow_cards_90": 1,
+          "corners_90": 10,
+          "penalty": true
+        }
+      },
+      {
+        "match": "México - Inglaterra",
+        "points": 4,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 1,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "México",
+          "half_time_result": "draw",
+          "yellow_cards_90": 4,
+          "corners_90": 12,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "Inglaterra",
+          "half_time_result": "away",
+          "yellow_cards_90": 6,
+          "corners_90": 14,
+          "penalty": true
+        }
+      },
+      {
+        "match": "Portugal - España",
+        "points": 6,
+        "qualified_points": 5,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "half_time_result": "away",
+          "yellow_cards_90": 5,
+          "corners_90": 14,
+          "penalty": true
+        },
+        "real": {
+          "qualified_team": "España",
+          "half_time_result": "draw",
+          "yellow_cards_90": 3,
+          "corners_90": 10,
+          "penalty": false
+        }
+      },
+      {
+        "match": "Estados Unidos - Bélgica",
+        "points": 3,
+        "qualified_points": 0,
+        "half_time_points": 0,
+        "yellow_cards_points": 1,
+        "corners_points": 0,
+        "penalty_points": 2,
+        "prediction": {
+          "qualified_team": "Estados Unidos",
+          "half_time_result": "home",
+          "yellow_cards_90": 4,
+          "corners_90": 13,
+          "penalty": false
+        },
+        "real": {
+          "qualified_team": "Bélgica",
+          "half_time_result": "away",
+          "yellow_cards_90": 2,
+          "corners_90": 8,
+          "penalty": false
+        }
       },
       {
         "match": "Argentina - Egipto",

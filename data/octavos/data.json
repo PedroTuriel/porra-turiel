@@ -1,9 +1,9 @@
 {
   "round": "R16",
   "spain": {
-    "first_spain_goal": null,
-    "first_spain_scorer": null,
-    "spain_possession": null
+    "first_spain_goal": 4,
+    "first_spain_scorer": "Mikel Merino (Arsenal FC)",
+    "spain_possession": 50
   },
   "matches": [
     {
@@ -33,26 +33,26 @@
     {
       "home_team": "Portugal",
       "away_team": "España",
-      "home_goals": null,
-      "away_goals": null,
-      "half_time_result": null,
-      "yellow_cards": null,
-      "corners": null,
-      "penalty_awarded": null,
+      "home_goals": 0,
+      "away_goals": 1,
+      "half_time_result": "draw",
+      "yellow_cards": 3,
+      "corners": 10,
+      "penalty_awarded": false,
       "decided_in": 90,
-      "qualified_team": null
+      "qualified_team": "España"
     },
     {
       "home_team": "Estados Unidos",
       "away_team": "Bélgica",
-      "home_goals": null,
-      "away_goals": null,
-      "half_time_result": null,
-      "yellow_cards": null,
-      "corners": null,
-      "penalty_awarded": null,
+      "home_goals": 1,
+      "away_goals": 4,
+      "half_time_result": "away",
+      "yellow_cards": 2,
+      "corners": 8,
+      "penalty_awarded": false,
       "decided_in": 90,
-      "qualified_team": null
+      "qualified_team": "Bélgica"
     },
     {
       "home_team": "Argentina",
