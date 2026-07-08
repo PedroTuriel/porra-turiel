@@ -271,6 +271,15 @@ def calculate_points(results: Dict[str, Any], predictions: Dict[str, Any], inclu
         match_points = 0
         match_details = []
 
+        # Criterios de desempate oficiales de la ronda:
+        # 1) mayor número de equipos clasificados acertados
+        # 2) mayor número de resultados al descanso acertados
+        # 3) mayor número de aciertos exactos en tarjetas amarillas y córners
+        # 4) mayor puntuación en el bonus de España
+        qualified_correct = 0
+        half_time_correct = 0
+        exact_yellows_corners = 0
+
         for pred_match in participant.get("matches", []):
             key = match_key(pred_match["home_team"], pred_match["away_team"])
             real_match = results_index.get(key)
@@ -309,6 +318,7 @@ def calculate_points(results: Dict[str, Any], predictions: Dict[str, Any], inclu
             points_qualified = 0
             if normalize_team(pred_match.get("predicted_qualified_team")) == normalize_team(actual_qualified):
                 points_qualified = 5
+                qualified_correct += 1
 
             points_half_time = 0
             predicted_half_time = normalize_half_time(
@@ -318,9 +328,18 @@ def calculate_points(results: Dict[str, Any], predictions: Dict[str, Any], inclu
             )
             if predicted_half_time == actual_half_time:
                 points_half_time = 2
+                half_time_correct += 1
 
             points_yellows = score_diff_3_points(pred_match.get("predicted_yellow_cards_90"), actual_yellows)
             points_corners = score_diff_3_points(pred_match.get("predicted_corners_90"), actual_corners)
+
+            if pred_match.get("predicted_yellow_cards_90") is not None and actual_yellows is not None:
+                if int(pred_match.get("predicted_yellow_cards_90")) == int(actual_yellows):
+                    exact_yellows_corners += 1
+
+            if pred_match.get("predicted_corners_90") is not None and actual_corners is not None:
+                if int(pred_match.get("predicted_corners_90")) == int(actual_corners):
+                    exact_yellows_corners += 1
 
             points_penalty = 0
             if normalize_bool(pred_match.get("predicted_penalty")) == actual_penalty:
@@ -383,6 +402,12 @@ def calculate_points(results: Dict[str, Any], predictions: Dict[str, Any], inclu
             "total_points": total_points,
             "match_points": match_points,
             "spain_points": spain_points,
+            "tiebreakers": {
+                "qualified_correct": qualified_correct,
+                "half_time_correct": half_time_correct,
+                "exact_yellows_corners": exact_yellows_corners,
+                "spain_points": spain_points,
+            },
             "spain_detail": {
                 "first_spain_goal_points": first_goal_points,
                 "first_spain_scorer_points": first_scorer_points,
@@ -402,10 +427,28 @@ def calculate_points(results: Dict[str, Any], predictions: Dict[str, Any], inclu
             "match_detail": match_details,
         })
 
-    leaderboard.sort(key=lambda row: row["total_points"], reverse=True)
+    def sort_key(row: Dict[str, Any]) -> Tuple[int, int, int, int, int]:
+        tiebreakers = row.get("tiebreakers", {})
+        return (
+            row["total_points"],
+            tiebreakers.get("qualified_correct", 0),
+            tiebreakers.get("half_time_correct", 0),
+            tiebreakers.get("exact_yellows_corners", 0),
+            tiebreakers.get("spain_points", 0),
+        )
 
-    for position, row in enumerate(leaderboard, start=1):
-        row["position"] = position
+    leaderboard.sort(key=sort_key, reverse=True)
+
+    previous_key = None
+    previous_position = 0
+    for index, row in enumerate(leaderboard, start=1):
+        current_key = sort_key(row)
+        if current_key == previous_key:
+            row["position"] = previous_position
+        else:
+            row["position"] = index
+            previous_position = index
+            previous_key = current_key
 
     return leaderboard
 
@@ -460,7 +503,12 @@ def main() -> None:
         print(
             f"{row['position']:>2}. {row['participant']} - "
             f"{row['total_points']} pts "
-            f"({row['match_points']} partidos + {row['spain_points']} España)"
+            f"({row['match_points']} partidos + {row['spain_points']} España) "
+            f"| desempate: "
+            f"clasificados {row['tiebreakers']['qualified_correct']}, "
+            f"descansos {row['tiebreakers']['half_time_correct']}, "
+            f"exactos tarjetas/córners {row['tiebreakers']['exact_yellows_corners']}, "
+            f"España {row['tiebreakers']['spain_points']}"
         )
 
     print(f"\nJSON generado: {output_json_path.resolve()}")

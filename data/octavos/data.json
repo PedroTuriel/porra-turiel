@@ -57,26 +57,26 @@
     {
       "home_team": "Argentina",
       "away_team": "Egipto",
-      "home_goals": null,
-      "away_goals": null,
-      "half_time_result": null,
-      "yellow_cards": null,
-      "corners": null,
-      "penalty_awarded": null,
+      "home_goals": 3,
+      "away_goals": 2,
+      "half_time_result": "away",
+      "yellow_cards": 4,
+      "corners": 7,
+      "penalty_awarded": true,
       "decided_in": 90,
-      "qualified_team": null
+      "qualified_team": "Argentina"
     },
     {
       "home_team": "Suiza",
       "away_team": "Colombia",
-      "home_goals": null,
-      "away_goals": null,
-      "half_time_result": null,
-      "yellow_cards": null,
-      "corners": null,
-      "penalty_awarded": null,
-      "decided_in": 90,
-      "qualified_team": null
+      "home_goals": 0,
+      "away_goals": 0,
+      "half_time_result": "draw",
+      "yellow_cards": 5,
+      "corners": 10,
+      "penalty_awarded": false,
+      "decided_in": "penalties",
+      "qualified_team": "Suiza"
     }
   ]
 }
