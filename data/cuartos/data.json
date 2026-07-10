@@ -1,9 +1,9 @@
 {
   "round": "QF",
   "spain": {
-    "third_substitution": null,
-    "first_assist": null,
-    "mvp": null
+    "third_substitution": 3,
+    "first_assist": "Dani Olmo (FC Barcelona)",
+    "mvp": "Lamine Yamal (FC Barcelona)"
   },
   "matches": [
     {
@@ -20,13 +20,13 @@
     {
       "home_team": "España",
       "away_team": "Bélgica",
-      "home_goals": null,
-      "away_goals": null,
-      "total_goals": null,
-      "offsides": null,
-      "more_possession": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 2,
+      "away_goals": 1,
+      "total_goals": 3,
+      "offsides": 4,
+      "more_possession": "España",
+      "decided_in": 90,
+      "qualified_team": "España"
     },
     {
       "home_team": "Noruega",
