@@ -1,0 +1,54 @@
+{
+  "round": "QF",
+  "spain": {
+    "third_substitution": null,
+    "first_assist": null,
+    "mvp": null
+  },
+  "matches": [
+    {
+      "home_team": "Francia",
+      "away_team": "Marruecos",
+      "home_goals": 2,
+      "away_goals": 0,
+      "total_goals": 2,
+      "offsides": 0,
+      "more_possession": "Empatarán (50% cada uno)",
+      "decided_in": 90,
+      "qualified_team": "Francia"
+    },
+    {
+      "home_team": "España",
+      "away_team": "Bélgica",
+      "home_goals": null,
+      "away_goals": null,
+      "total_goals": null,
+      "offsides": null,
+      "more_possession": null,
+      "decided_in": null,
+      "qualified_team": null
+    },
+    {
+      "home_team": "Noruega",
+      "away_team": "Inglaterra",
+      "home_goals": null,
+      "away_goals": null,
+      "total_goals": null,
+      "offsides": null,
+      "more_possession": null,
+      "decided_in": null,
+      "qualified_team": null
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Suiza",
+      "home_goals": null,
+      "away_goals": null,
+      "total_goals": null,
+      "offsides": null,
+      "more_possession": null,
+      "decided_in": null,
+      "qualified_team": null
+    }
+  ]
+}

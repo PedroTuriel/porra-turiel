@@ -1,0 +1,432 @@
+{
+  "round": "QF",
+  "total_participants": 8,
+  "matches": [
+    {
+      "home_team": "Francia",
+      "away_team": "Marruecos"
+    },
+    {
+      "home_team": "España",
+      "away_team": "Bélgica"
+    },
+    {
+      "home_team": "Noruega",
+      "away_team": "Inglaterra"
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Suiza"
+    }
+  ],
+  "participants": [
+    {
+      "mote": "Guru",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_mvp": "Rodrigo Hernández (Manchester City FC)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 7,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 5,
+          "predicted_more_possession": "Bélgica"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Noruega",
+          "predicted_total_goals": 4,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 4,
+          "predicted_more_possession": "Noruega"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 5,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 6,
+          "predicted_more_possession": "Suiza"
+        }
+      ]
+    },
+    {
+      "mote": "Amatxi",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 5,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 6,
+          "predicted_more_possession": "Marruecos"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 5,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Noruega",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 6,
+          "predicted_more_possession": "Inglaterra"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 4,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 6,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    },
+    {
+      "mote": "Mattias",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "spain_mvp": "Marc Cucurella (Chelsea FC)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "Empatarán (50% cada uno)"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    },
+    {
+      "mote": "RaúlSelección",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Lamine Yamal (FC Barcelona)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 4,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Noruega",
+          "predicted_total_goals": 1,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "Inglaterra"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    },
+    {
+      "mote": "El sabio de Hortaleza",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Lamine Yamal (FC Barcelona)",
+        "spain_mvp": "Rodrigo Hernández (Manchester City FC)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 5,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 4,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_total_goals": 4,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 5,
+          "predicted_more_possession": "Inglaterra"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 6,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    },
+    {
+      "mote": "Tobigol",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Álex Baena (Atlético de Madrid)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 7,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 7,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Inglaterra",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 8,
+          "predicted_more_possession": "Inglaterra"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 4,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 8,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    },
+    {
+      "mote": "Felipon",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Mikel Merino (Arsenal FC)",
+        "spain_mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Francia",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 4,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 2,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Noruega",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 3,
+          "predicted_more_possession": "Noruega"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 4,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    },
+    {
+      "mote": "Beloncio",
+      "spain": {
+        "third_substitution": 4,
+        "third_substitution_label": "Entre la segunda pausa de hidratación y el final del partido (90 mins)",
+        "first_assist": "Marc Cucurella (Chelsea FC)",
+        "spain_mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "matches": [
+        {
+          "home_team": "Francia",
+          "away_team": "Marruecos",
+          "predicted_qualified_team": "Marruecos",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 5,
+          "predicted_more_possession": "Francia"
+        },
+        {
+          "home_team": "España",
+          "away_team": "Bélgica",
+          "predicted_qualified_team": "España",
+          "predicted_total_goals": 2,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 6,
+          "predicted_more_possession": "España"
+        },
+        {
+          "home_team": "Noruega",
+          "away_team": "Inglaterra",
+          "predicted_qualified_team": "Noruega",
+          "predicted_total_goals": 3,
+          "predicted_decided_in": "extra_time",
+          "predicted_decided_in_label": "Prórroga",
+          "predicted_offsides": 5,
+          "predicted_more_possession": "Noruega"
+        },
+        {
+          "home_team": "Argentina",
+          "away_team": "Suiza",
+          "predicted_qualified_team": "Argentina",
+          "predicted_total_goals": 4,
+          "predicted_decided_in": 90,
+          "predicted_decided_in_label": "90 minutos",
+          "predicted_offsides": 7,
+          "predicted_more_possession": "Argentina"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "participant": "Guru",
+    "total_points": 10,
+    "match_points": 10,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 10,
+        "qualified_points": 5,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 7,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Mattias",
+    "total_points": 10,
+    "match_points": 10,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 10,
+        "qualified_points": 5,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 3,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "RaúlSelección",
+    "total_points": 10,
+    "match_points": 10,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Lamine Yamal (FC Barcelona)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 10,
+        "qualified_points": 5,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 4,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "El sabio de Hortaleza",
+    "total_points": 10,
+    "match_points": 10,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Lamine Yamal (FC Barcelona)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 10,
+        "qualified_points": 5,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 5,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Tobigol",
+    "total_points": 10,
+    "match_points": 10,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Álex Baena (Atlético de Madrid)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 10,
+        "qualified_points": 5,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 7,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Felipon",
+    "total_points": 10,
+    "match_points": 10,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Mikel Merino (Arsenal FC)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 10,
+        "qualified_points": 5,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 4,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Amatxi",
+    "total_points": 5,
+    "match_points": 5,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "decided_in_correct": 0,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 5,
+        "qualified_points": 5,
+        "total_goals_points": 0,
+        "decided_in_points": 0,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Francia",
+          "total_goals": 5,
+          "decided_in": "extra_time",
+          "offsides": 6,
+          "more_possession": "Marruecos"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 7
+  },
+  {
+    "participant": "Beloncio",
+    "total_points": 5,
+    "match_points": 5,
+    "spain_points": 0,
+    "tiebreakers": {
+      "qualified_correct": 0,
+      "exact_total_goals": 0,
+      "decided_in_correct": 1,
+      "exact_offsides": 0,
+      "possession_correct": 0,
+      "spain_points": 0
+    },
+    "spain_detail": {
+      "third_substitution_points": 0,
+      "first_assist_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "third_substitution": 4,
+        "first_assist": "Marc Cucurella (Chelsea FC)",
+        "mvp": null
+      },
+      "real": {
+        "third_substitution": null,
+        "first_assist": null,
+        "mvp": null
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - Marruecos",
+        "points": 5,
+        "qualified_points": 0,
+        "total_goals_points": 2,
+        "decided_in_points": 3,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Marruecos",
+          "total_goals": 3,
+          "decided_in": 90,
+          "offsides": 5,
+          "more_possession": "Francia"
+        },
+        "real": {
+          "qualified_team": "Francia",
+          "total_goals": 2,
+          "decided_in": "90",
+          "offsides": 0,
+          "more_possession": "empataran (50% cada uno)"
+        }
+      },
+      {
+        "match": "España - Bélgica",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Noruega - Inglaterra",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      },
+      {
+        "match": "Argentina - Suiza",
+        "points": 0,
+        "warning": "Partido pendiente o con campos incompletos en data.json"
+      }
+    ],
+    "position": 8
+  }
+]
