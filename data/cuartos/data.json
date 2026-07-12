@@ -31,24 +31,24 @@
     {
       "home_team": "Noruega",
       "away_team": "Inglaterra",
-      "home_goals": null,
-      "away_goals": null,
-      "total_goals": null,
-      "offsides": null,
-      "more_possession": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 1,
+      "away_goals": 2,
+      "total_goals": 3,
+      "offsides": 6,
+      "more_possession": "Inglaterra",
+      "decided_in": "extra_time",
+      "qualified_team": "Inglaterra"
     },
     {
       "home_team": "Argentina",
       "away_team": "Suiza",
-      "home_goals": null,
-      "away_goals": null,
-      "total_goals": null,
-      "offsides": null,
-      "more_possession": null,
-      "decided_in": null,
-      "qualified_team": null
+      "home_goals": 3,
+      "away_goals": 1,
+      "total_goals": 4,
+      "offsides": 7,
+      "more_possession": "Argentina",
+      "decided_in": "extra_time",
+      "qualified_team": "Argentina"
     }
   ]
 }
