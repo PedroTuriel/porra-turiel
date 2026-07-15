@@ -24,10 +24,15 @@ R16_DIR = DATA_DIR / "octavos"
 R16_LEADERBOARD_FILE = R16_DIR / "leaderboard_octavos.json"
 R16_RESULTS_FILE = R16_DIR / "data.json"
 
-# Cuartos, dinamico
+# Cuartos, congelado / estatico
 QF_DIR = DATA_DIR / "cuartos"
 QF_LEADERBOARD_FILE = QF_DIR / "leaderboard_cuartos.json"
 QF_RESULTS_FILE = QF_DIR / "data.json"
+
+# Semifinales, dinamico
+SF_DIR = DATA_DIR / "semifinales"
+SF_LEADERBOARD_FILE = SF_DIR / "leaderboard_semifinales.json"
+SF_RESULTS_FILE = SF_DIR / "data.json"
 
 
 TEAM_ES = {
@@ -301,6 +306,39 @@ def enrich_qf_leaderboard(leaderboard: List[Dict[str, Any]], qf_results: Dict[st
 
     return leaderboard
 
+
+def enrich_sf_leaderboard(leaderboard: List[Dict[str, Any]], sf_results: Dict[str, Any]) -> List[Dict[str, Any]]:
+    for idx, row in enumerate(leaderboard, start=1):
+        row.setdefault("position", idx)
+        row["display_name"] = row.get("participant") or row.get("name") or "Sin nombre"
+
+        for detail in row.get("match_detail", []):
+            prediction = detail.get("prediction", {})
+            real = detail.get("real", {})
+
+            prediction["qualified_team_es"] = team_es(prediction.get("qualified_team"))
+            real["qualified_team_es"] = team_es(real.get("qualified_team"))
+            prediction["decided_in_es"] = DECISION_ES.get(prediction.get("decided_in"), prediction.get("decided_in", "-"))
+            real["decided_in_es"] = DECISION_ES.get(real.get("decided_in"), real.get("decided_in", "-"))
+            prediction["half_time_result_es"] = half_time_label(prediction.get("half_time_result"))
+            real["half_time_result_es"] = half_time_label(real.get("half_time_result"))
+
+            match_parts = detail.get("match", "").split(" - ")
+            home_team = match_parts[0] if match_parts else None
+            away_team = match_parts[1] if len(match_parts) > 1 else None
+            for item in (prediction, real):
+                possession = item.get("more_possession")
+                if possession == "home":
+                    item["more_possession_es"] = team_es(home_team)
+                elif possession == "away":
+                    item["more_possession_es"] = team_es(away_team)
+                elif possession == "draw":
+                    item["more_possession_es"] = "Empate (50%-50%)"
+                else:
+                    item["more_possession_es"] = team_es(possession)
+    return leaderboard
+
+
 def build_app_data() -> Dict[str, Any]:
     group_results = read_json(GROUP_STAGE_RESULTS_FILE, {"ranking": []})
     group_standings = read_json(GROUP_STAGE_STANDINGS_FILE, {"groups": {}})
@@ -313,6 +351,9 @@ def build_app_data() -> Dict[str, Any]:
 
     qf_leaderboard = read_json(QF_LEADERBOARD_FILE, [])
     qf_results = read_json(QF_RESULTS_FILE, {"round": "QF", "spain": {}, "matches": []})
+
+    sf_leaderboard = read_json(SF_LEADERBOARD_FILE, [])
+    sf_results = read_json(SF_RESULTS_FILE, {"round": "SF", "spain": {}, "matches": []})
 
     generated_at = datetime.now().strftime("%d/%m/%Y %H:%M")
 
@@ -339,6 +380,13 @@ def build_app_data() -> Dict[str, Any]:
             "leaderboard": enrich_qf_leaderboard(qf_leaderboard, qf_results),
             "results": {
               **qf_results,
+              "generated_at": generated_at,
+            },
+        },
+        "sf": {
+            "leaderboard": enrich_sf_leaderboard(sf_leaderboard, sf_results),
+            "results": {
+              **sf_results,
               "generated_at": generated_at,
             },
         },
@@ -654,10 +702,10 @@ def generate_html(app_data: Dict[str, Any]) -> str:
       <div class="hero-card">
         <div class="eyebrow">Mundial 2026</div>
         <h1>La Porra<br>Turiel 2026</h1>
-        <div class="subtitle">Cuartos de final</div>
+        <div class="subtitle">Semifinales</div>
         <div class="hero-stats">
           <div class="stat"><strong id="statParticipants">0</strong><span>Participantes</span></div>
-          <div class="stat"><strong id="statLeader">-</strong><span>Líder cuartos</span></div>
+          <div class="stat"><strong id="statLeader">-</strong><span>Líder semifinales</span></div>
           <div class="stat"><strong id="statUpdated">-</strong><span>Última actualización</span></div>
         </div>
       </div>
@@ -666,7 +714,8 @@ def generate_html(app_data: Dict[str, Any]) -> str:
 
   <div class="tabs-bar">
     <div class="container tabs-inner">
-      <button class="tab-button active" data-tab="qfTab">Cuartos</button>
+      <button class="tab-button active" data-tab="sfTab">Semifinales</button>
+      <button class="tab-button" data-tab="qfTab">Cuartos</button>
       <button class="tab-button" data-tab="r16Tab">Octavos</button>
       <button class="tab-button" data-tab="r32Tab">Dieciseisavos</button>
       <button class="tab-button" data-tab="groupsTab">Fase de grupos</button>
@@ -674,7 +723,40 @@ def generate_html(app_data: Dict[str, Any]) -> str:
   </div>
 
   <main>
-    <div id="qfTab" class="tab-panel active">
+    <div id="sfTab" class="tab-panel active">
+      <section id="sfClasificacion">
+        <div class="container">
+          <div class="section-title">
+            <h2>Clasificación semifinales</h2>
+            <span class="pill">Actualización dinámica</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Posición</th><th>Participante</th><th>Total</th><th>Partidos</th><th>España</th></tr>
+              </thead>
+              <tbody id="sfRankingTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="sfDetalle">
+        <div class="container">
+          <div class="section-title">
+            <h2>Detalle por participante</h2>
+            <span class="pill">Predicción vs realidad</span>
+          </div>
+          <div class="selector-box"><select id="sfParticipantSelect"></select></div>
+          <div class="detail-layout">
+            <aside class="profile-card" id="sfParticipantSummary"></aside>
+            <div id="sfParticipantMatches" class="cards-grid"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="qfTab" class="tab-panel">
       <section id="qfClasificacion">
         <div class="container">
           <div class="section-title">
@@ -821,6 +903,29 @@ def generate_html(app_data: Dict[str, Any]) -> str:
         <div class="section-title"><h2>Reglas de puntuación</h2></div>
         <div class="rules">
           <details open>
+            <summary>Semifinales: máximo 25 puntos por partido</summary>
+            <ul>
+              <li>Selección clasificada: <strong>5 puntos</strong></li>
+              <li>Resultado exacto a los 90 minutos: exacto <strong>5</strong>; mismo signo y a un gol <strong>2</strong></li>
+              <li>Momento de decisión: <strong>3 puntos</strong></li>
+              <li>Resultado al descanso: <strong>2 puntos</strong></li>
+              <li>Goles totales: exacto <strong>3</strong>, diferencia de 1 <strong>2</strong>, diferencia de 2 <strong>1</strong></li>
+              <li>Córners: exacto <strong>2</strong>, diferencia de 1 o 2 <strong>1</strong></li>
+              <li>Amarillas: exacto <strong>2</strong>, diferencia de 1 <strong>1</strong></li>
+              <li>Fueras de juego: exacto <strong>2</strong>, diferencia de 1 o 2 <strong>1</strong></li>
+              <li>Más posesión: <strong>1 punto</strong></li>
+            </ul>
+          </details>
+          <details>
+            <summary>Preguntas de España en semifinales</summary>
+            <ul>
+              <li>Primer goleador de España: <strong>3 puntos</strong></li>
+              <li>Primera asistencia de España: <strong>2 puntos</strong></li>
+              <li>Minuto del primer gol: exacto <strong>3</strong>, diferencia de 1–5 <strong>2</strong>, diferencia de 6–10 <strong>1</strong></li>
+              <li>MVP de España según los participantes eliminados: <strong>2 puntos</strong></li>
+            </ul>
+          </details>
+          <details>
             <summary>Cuartos: máximo 15 puntos por partido</summary>
             <ul>
               <li>Acertar la selección que se clasifica: <strong>5 puntos</strong></li>
@@ -907,12 +1012,102 @@ def generate_html(app_data: Dict[str, Any]) -> str:
     }}
 
     function initHero() {{
-      const ranking = APP_DATA.qf.leaderboard || [];
+      const ranking = APP_DATA.sf.leaderboard || [];
       document.getElementById("statParticipants").textContent = ranking.length;
       document.getElementById("statLeader").textContent = ranking[0]?.display_name || "-";
-      document.getElementById("statUpdated").textContent = APP_DATA.qf.generated_at || APP_DATA.qf.results?.generated_at || APP_DATA.r16.results?.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
+      document.getElementById("statUpdated").textContent = APP_DATA.sf.results?.generated_at || APP_DATA.qf.results?.generated_at || APP_DATA.r16.results?.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
     }}
 
+
+
+    function renderSFRanking() {{
+      const tbody = document.getElementById("sfRankingTable");
+      const ranking = APP_DATA.sf.leaderboard || [];
+      const eliminatedStartIndex = Math.max(ranking.length - 2, 0);
+      tbody.innerHTML = ranking.map((p, index) => {{
+        const isEliminated = index >= eliminatedStartIndex;
+        return `
+          <tr class="${{isEliminated ? "eliminated-row" : ""}}">
+            <td><strong>${{medal(p.position || index + 1)}}</strong></td>
+            <td><strong>${{escapeHtml(p.display_name)}}</strong></td>
+            <td><strong>${{pts(p.total_points)}}</strong></td>
+            <td>${{pts(p.match_points)}}</td>
+            <td>${{pts(p.spain_points)}}</td>
+          </tr>`;
+      }}).join("");
+    }}
+
+    function renderSFSelector() {{
+      const select = document.getElementById("sfParticipantSelect");
+      const ranking = APP_DATA.sf.leaderboard || [];
+      select.innerHTML = ranking.map((p, index) => `<option value="${{index}}">${{p.position || index + 1}}. ${{escapeHtml(p.display_name)}} - ${{pts(p.total_points)}}</option>`).join("");
+      select.addEventListener("change", () => renderSFDetail(Number(select.value)));
+      if (ranking.length) renderSFDetail(0);
+    }}
+
+    function renderSFDetail(index) {{
+      const participant = (APP_DATA.sf.leaderboard || [])[index];
+      if (!participant) return;
+      const summary = document.getElementById("sfParticipantSummary");
+      const matches = document.getElementById("sfParticipantMatches");
+      const spain = participant.spain_detail || {{}};
+      const pred = spain.prediction || {{}};
+      const real = spain.real || {{}};
+
+      summary.innerHTML = `
+        <h3>${{escapeHtml(participant.display_name)}}</h3>
+        <div class="pill">Puesto ${{participant.position}}</div>
+        <div class="big-score">${{participant.total_points}} pts</div>
+        <div class="breakdown"><span>Partidos: ${{participant.match_points}}</span><span>España: ${{participant.spain_points}}</span></div>
+        <hr style="border-color: rgba(255,255,255,.08); margin: 18px 0;" />
+        <h4 style="color: var(--gold2); margin-bottom: 8px;">España</h4>
+        <p class="mini-line"><b>Primer goleador:</b> ${{escapeHtml(pred.first_spain_goal)}} → real: ${{escapeHtml(real.first_spain_goal || "Pendiente")}} <strong>(${{spain.first_scorer_points || 0}} pts)</strong></p>
+        <p class="mini-line"><b>Primera asistencia:</b> ${{escapeHtml(pred.first_assist)}} → real: ${{escapeHtml(real.first_assist || "Pendiente")}} <strong>(${{spain.first_assist_points || 0}} pts)</strong></p>
+        <p class="mini-line"><b>Minuto primer gol:</b> ${{escapeHtml(pred.first_goal_minute)}} → real: ${{escapeHtml(real.first_goal_minute ?? "Pendiente")}} <strong>(${{spain.first_goal_minute_points || 0}} pts)</strong></p>
+        <p class="mini-line"><b>MVP:</b> ${{escapeHtml(pred.mvp)}} → real: ${{escapeHtml(real.mvp || "Pendiente")}} <strong>(${{spain.mvp_points || 0}} pts)</strong></p>`;
+
+      matches.innerHTML = (participant.match_detail || []).map((m) => {{
+        const p = m.prediction || {{}};
+        const r = m.real || {{}};
+        const pending = !!m.warning;
+        return `
+          <article class="card">
+            <header><h4>${{escapeHtml(m.match)}}</h4><span class="badge ${{pending ? "pending" : ""}}">${{m.points || 0}} pts</span></header>
+            ${{pending ? `<p class="mini-line">${{escapeHtml(m.warning)}}</p>` : ""}}
+            <div class="comparison">
+              <div><strong>Predicción</strong>
+                <p class="mini-line">Clasificado: <b>${{escapeHtml(p.qualified_team_es || p.qualified_team)}}</b></p>
+                <p class="mini-line">Resultado 90': <b>${{escapeHtml(p.home_goals_90)}}-${{escapeHtml(p.away_goals_90)}}</b></p>
+                <p class="mini-line">Decisión: <b>${{escapeHtml(p.decided_in_es || p.decided_in)}}</b></p>
+                <p class="mini-line">Descanso: <b>${{escapeHtml(p.half_time_result_es || p.half_time_result)}}</b></p>
+                <p class="mini-line">Goles totales: <b>${{escapeHtml(p.total_goals)}}</b></p>
+                <p class="mini-line">Córners: <b>${{escapeHtml(p.corners)}}</b></p>
+                <p class="mini-line">Amarillas: <b>${{escapeHtml(p.yellow_cards)}}</b></p>
+                <p class="mini-line">Fueras de juego: <b>${{escapeHtml(p.offsides)}}</b></p>
+                <p class="mini-line">Más posesión: <b>${{escapeHtml(p.more_possession_es || p.more_possession)}}</b></p>
+              </div>
+              <div><strong>Real</strong>
+                <p class="mini-line">Clasificado: <b>${{escapeHtml(r.qualified_team_es || r.qualified_team || "Pendiente")}}</b></p>
+                <p class="mini-line">Resultado 90': <b>${{r.home_goals_90 ?? "-"}}-${{r.away_goals_90 ?? "-"}}</b></p>
+                <p class="mini-line">Decisión: <b>${{escapeHtml(r.decided_in_es || r.decided_in || "Pendiente")}}</b></p>
+                <p class="mini-line">Descanso: <b>${{escapeHtml(r.half_time_result_es || r.half_time_result || "Pendiente")}}</b></p>
+                <p class="mini-line">Goles totales: <b>${{r.total_goals ?? "Pendiente"}}</b></p>
+                <p class="mini-line">Córners: <b>${{r.corners ?? "Pendiente"}}</b></p>
+                <p class="mini-line">Amarillas: <b>${{r.yellow_cards ?? "Pendiente"}}</b></p>
+                <p class="mini-line">Fueras de juego: <b>${{r.offsides ?? "Pendiente"}}</b></p>
+                <p class="mini-line">Más posesión: <b>${{escapeHtml(r.more_possession_es || r.more_possession || "Pendiente")}}</b></p>
+              </div>
+            </div>
+            <div class="breakdown">
+              <span>Clasificado: ${{m.qualified_points || 0}}</span><span>Resultado: ${{m.exact_result_points || 0}}</span>
+              <span>Decisión: ${{m.decided_in_points || 0}}</span><span>Descanso: ${{m.half_time_points || 0}}</span>
+              <span>Goles: ${{m.total_goals_points || 0}}</span><span>Córners: ${{m.corners_points || 0}}</span>
+              <span>Amarillas: ${{m.yellow_cards_points || 0}}</span><span>Fueras de juego: ${{m.offsides_points || 0}}</span>
+              <span>Posesión: ${{m.possession_points || 0}}</span>
+            </div>
+          </article>`;
+      }}).join("");
+    }}
 
     function renderQFRanking() {{
       const tbody = document.getElementById("qfRankingTable");
@@ -1227,6 +1422,8 @@ def generate_html(app_data: Dict[str, Any]) -> str:
 
     setupTabs();
     initHero();
+    renderSFRanking();
+    renderSFSelector();
     renderQFRanking();
     renderQFSelector();
     renderR16Ranking();

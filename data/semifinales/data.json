@@ -1,0 +1,44 @@
+{
+  "round": "SF",
+  "spain": {
+    "first_goal_interval": 22,
+    "first_goal_interval_label": "Primera mitad",
+    "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+    "first_assist": "Dani Olmo (FC Barcelona)",
+    "mvp": "Rodrigo Hernández (Manchester City FC)"
+  },
+  "matches": [
+    {
+      "home_team": "Francia",
+      "away_team": "España",
+      "home_goals": 0,
+      "away_goals": 2,
+      "half_time_result": "away",
+      "half_time_result_label": "Gana el equipo visitante",
+      "total_goals": 2,
+      "corners": 8,
+      "yellow_cards": 3,
+      "offsides": 9,
+      "more_possession": "Francia",
+      "decided_in": 90,
+      "decided_in_label": "90 minutos",
+      "qualified_team": "España"
+    },
+    {
+      "home_team": "Inglaterra",
+      "away_team": "Argentina",
+      "home_goals": 1,
+      "away_goals": 2,
+      "half_time_result": "draw",
+      "half_time_result_label": "Empate",
+      "total_goals": 3,
+      "corners": 7,
+      "yellow_cards": 4,
+      "offsides": 4,
+      "more_possession": "Argentina",
+      "decided_in": 90,
+      "decided_in_label": "90 minutos",
+      "qualified_team": "Argentina"
+    }
+  ]
+}

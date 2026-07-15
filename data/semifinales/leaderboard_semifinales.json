@@ -1,0 +1,442 @@
+[
+  {
+    "participant": "Tobigol",
+    "total_points": 32,
+    "match_points": 29,
+    "spain_points": 3,
+    "tiebreakers": {
+      "exact_results": 1,
+      "qualified_correct": 2,
+      "exact_total_goals": 1,
+      "exact_corners": 0,
+      "exact_yellow_cards": 0,
+      "exact_offsides": 0,
+      "spain_points": 3
+    },
+    "spain_detail": {
+      "first_scorer_points": 3,
+      "first_assist_points": 0,
+      "first_goal_minute_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Álex Baena (Atlético de Madrid)",
+        "first_goal_minute": 68,
+        "mvp": "Mikel Merino (Arsenal FC)"
+      },
+      "real": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 22,
+        "mvp": "Rodrigo Hernández (Manchester City FC)"
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - España",
+        "points": 9,
+        "qualified_points": 5,
+        "exact_result_points": 0,
+        "decided_in_points": 0,
+        "half_time_points": 0,
+        "total_goals_points": 2,
+        "corners_points": 1,
+        "yellow_cards_points": 1,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "home_goals_90": 1,
+          "away_goals_90": 1,
+          "decided_in": "extra_time",
+          "half_time_result": "home",
+          "total_goals": 3,
+          "corners": 9,
+          "yellow_cards": 2,
+          "offsides": 6,
+          "more_possession": "España"
+        },
+        "real": {
+          "qualified_team": "España",
+          "home_goals_90": 0,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "away",
+          "total_goals": 2,
+          "corners": 8,
+          "yellow_cards": 3,
+          "offsides": 9,
+          "more_possession": "home"
+        }
+      },
+      {
+        "match": "Inglaterra - Argentina",
+        "points": 20,
+        "qualified_points": 5,
+        "exact_result_points": 5,
+        "decided_in_points": 3,
+        "half_time_points": 2,
+        "total_goals_points": 3,
+        "corners_points": 1,
+        "yellow_cards_points": 0,
+        "offsides_points": 1,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Argentina",
+          "home_goals_90": 1,
+          "away_goals_90": 2,
+          "decided_in": 90,
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 5,
+          "yellow_cards": 1,
+          "offsides": 6,
+          "more_possession": "Inglaterra"
+        },
+        "real": {
+          "qualified_team": "Argentina",
+          "home_goals_90": 1,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 7,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "away"
+        }
+      }
+    ],
+    "position": 1
+  },
+  {
+    "participant": "Amatxi",
+    "total_points": 29,
+    "match_points": 24,
+    "spain_points": 5,
+    "tiebreakers": {
+      "exact_results": 0,
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "exact_corners": 1,
+      "exact_yellow_cards": 1,
+      "exact_offsides": 0,
+      "spain_points": 5
+    },
+    "spain_detail": {
+      "first_scorer_points": 3,
+      "first_assist_points": 2,
+      "first_goal_minute_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 40,
+        "mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "real": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 22,
+        "mvp": "Rodrigo Hernández (Manchester City FC)"
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - España",
+        "points": 15,
+        "qualified_points": 5,
+        "exact_result_points": 2,
+        "decided_in_points": 3,
+        "half_time_points": 0,
+        "total_goals_points": 2,
+        "corners_points": 2,
+        "yellow_cards_points": 1,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "home_goals_90": 1,
+          "away_goals_90": 2,
+          "decided_in": 90,
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 8,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "España"
+        },
+        "real": {
+          "qualified_team": "España",
+          "home_goals_90": 0,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "away",
+          "total_goals": 2,
+          "corners": 8,
+          "yellow_cards": 3,
+          "offsides": 9,
+          "more_possession": "home"
+        }
+      },
+      {
+        "match": "Inglaterra - Argentina",
+        "points": 9,
+        "qualified_points": 0,
+        "exact_result_points": 0,
+        "decided_in_points": 3,
+        "half_time_points": 0,
+        "total_goals_points": 1,
+        "corners_points": 1,
+        "yellow_cards_points": 2,
+        "offsides_points": 1,
+        "possession_points": 1,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "home_goals_90": 3,
+          "away_goals_90": 2,
+          "decided_in": 90,
+          "half_time_result": "home",
+          "total_goals": 5,
+          "corners": 8,
+          "yellow_cards": 4,
+          "offsides": 6,
+          "more_possession": "Argentina"
+        },
+        "real": {
+          "qualified_team": "Argentina",
+          "home_goals_90": 1,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 7,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "away"
+        }
+      }
+    ],
+    "position": 2
+  },
+  {
+    "participant": "Mattias",
+    "total_points": 21,
+    "match_points": 19,
+    "spain_points": 2,
+    "tiebreakers": {
+      "exact_results": 0,
+      "qualified_correct": 2,
+      "exact_total_goals": 1,
+      "exact_corners": 0,
+      "exact_yellow_cards": 0,
+      "exact_offsides": 1,
+      "spain_points": 2
+    },
+    "spain_detail": {
+      "first_scorer_points": 0,
+      "first_assist_points": 2,
+      "first_goal_minute_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": "Lamine Yamal (FC Barcelona)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 64,
+        "mvp": "Lamine Yamal (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 22,
+        "mvp": "Rodrigo Hernández (Manchester City FC)"
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - España",
+        "points": 6,
+        "qualified_points": 5,
+        "exact_result_points": 0,
+        "decided_in_points": 0,
+        "half_time_points": 0,
+        "total_goals_points": 0,
+        "corners_points": 0,
+        "yellow_cards_points": 1,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "home_goals_90": 2,
+          "away_goals_90": 2,
+          "decided_in": "extra_time",
+          "half_time_result": "draw",
+          "total_goals": 5,
+          "corners": 11,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "España"
+        },
+        "real": {
+          "qualified_team": "España",
+          "home_goals_90": 0,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "away",
+          "total_goals": 2,
+          "corners": 8,
+          "yellow_cards": 3,
+          "offsides": 9,
+          "more_possession": "home"
+        }
+      },
+      {
+        "match": "Inglaterra - Argentina",
+        "points": 13,
+        "qualified_points": 5,
+        "exact_result_points": 0,
+        "decided_in_points": 0,
+        "half_time_points": 2,
+        "total_goals_points": 3,
+        "corners_points": 0,
+        "yellow_cards_points": 0,
+        "offsides_points": 2,
+        "possession_points": 1,
+        "prediction": {
+          "qualified_team": "Argentina",
+          "home_goals_90": 1,
+          "away_goals_90": 1,
+          "decided_in": "extra_time",
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 10,
+          "yellow_cards": 6,
+          "offsides": 4,
+          "more_possession": "Argentina"
+        },
+        "real": {
+          "qualified_team": "Argentina",
+          "home_goals_90": 1,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 7,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "away"
+        }
+      }
+    ],
+    "position": 3
+  },
+  {
+    "participant": "El sabio de Hortaleza",
+    "total_points": 20,
+    "match_points": 15,
+    "spain_points": 5,
+    "tiebreakers": {
+      "exact_results": 0,
+      "qualified_correct": 1,
+      "exact_total_goals": 0,
+      "exact_corners": 1,
+      "exact_yellow_cards": 0,
+      "exact_offsides": 0,
+      "spain_points": 5
+    },
+    "spain_detail": {
+      "first_scorer_points": 3,
+      "first_assist_points": 2,
+      "first_goal_minute_points": 0,
+      "mvp_points": 0,
+      "prediction": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 57,
+        "mvp": "Dani Olmo (FC Barcelona)"
+      },
+      "real": {
+        "first_spain_goal": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 22,
+        "mvp": "Rodrigo Hernández (Manchester City FC)"
+      }
+    },
+    "match_detail": [
+      {
+        "match": "Francia - España",
+        "points": 9,
+        "qualified_points": 5,
+        "exact_result_points": 0,
+        "decided_in_points": 0,
+        "half_time_points": 0,
+        "total_goals_points": 2,
+        "corners_points": 1,
+        "yellow_cards_points": 1,
+        "offsides_points": 0,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "España",
+          "home_goals_90": 1,
+          "away_goals_90": 1,
+          "decided_in": "extra_time",
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 10,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "España"
+        },
+        "real": {
+          "qualified_team": "España",
+          "home_goals_90": 0,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "away",
+          "total_goals": 2,
+          "corners": 8,
+          "yellow_cards": 3,
+          "offsides": 9,
+          "more_possession": "home"
+        }
+      },
+      {
+        "match": "Inglaterra - Argentina",
+        "points": 6,
+        "qualified_points": 0,
+        "exact_result_points": 0,
+        "decided_in_points": 0,
+        "half_time_points": 0,
+        "total_goals_points": 2,
+        "corners_points": 2,
+        "yellow_cards_points": 1,
+        "offsides_points": 1,
+        "possession_points": 0,
+        "prediction": {
+          "qualified_team": "Inglaterra",
+          "home_goals_90": 3,
+          "away_goals_90": 1,
+          "decided_in": "extra_time",
+          "half_time_result": "home",
+          "total_goals": 4,
+          "corners": 7,
+          "yellow_cards": 3,
+          "offsides": 5,
+          "more_possession": "Inglaterra"
+        },
+        "real": {
+          "qualified_team": "Argentina",
+          "home_goals_90": 1,
+          "away_goals_90": 2,
+          "decided_in": "90",
+          "half_time_result": "draw",
+          "total_goals": 3,
+          "corners": 7,
+          "yellow_cards": 4,
+          "offsides": 4,
+          "more_possession": "away"
+        }
+      }
+    ],
+    "position": 4
+  }
+]
