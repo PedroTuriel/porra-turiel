@@ -1,0 +1,42 @@
+{
+  "round": "FINAL",
+  "spain": {
+    "first_goal_minute": 106,
+    "first_goal_minute_label": "Minuto 106",
+    "first_spain_goal": "106",
+    "first_assist": "Nico Williams (Athletic Club)",
+    "first_sub_in": "Ferran Torres (Barcelona)",
+    "first_sub_out": "Mikel Merino (Arsenal)",
+    "spain_goals": 1
+  },
+  "match": {
+    "home_team": "España",
+    "away_team": "Argentina",
+
+    "home_goals_90": 0,
+    "away_goals_90": 0,
+
+    "half_time_result": "draw",
+    "half_time_result_label": "Empate",
+
+    "total_goals": 1,
+    "corners": 13,
+    "yellow_cards": 6,
+    "offsides": 5,
+
+    "more_possession": "España",
+
+    "decided_in": "extra_time",
+    "decided_in_label": "Prorroga",
+
+    "qualified_team": "España",
+
+    "penalty": false,
+    "penalty_label": "No",
+
+    "red_card": true,
+    "red_card_label": "Si",
+
+    "mvp": "Ferran Torres (FC Barcelona)"
+  }
+}

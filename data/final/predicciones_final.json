@@ -1,0 +1,62 @@
+{
+  "round": "FINAL",
+  "total_participants": 2,
+  "match": {
+    "home_team": "España",
+    "away_team": "Argentina"
+  },
+  "participants": [
+    {
+      "mote": "Amatxi",
+      "prediction": {
+        "champion": "España",
+        "home_goals_90": 2,
+        "away_goals_90": 1,
+        "decided_in": 90,
+        "half_time_result": "Empate",
+        "total_goals": 3,
+        "corners": 10,
+        "yellow_cards": 5,
+        "offsides": 4,
+        "more_possession": "España",
+        "penalty": "Si",
+        "red_card": "No",
+        "mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "spain": {
+        "first_goal_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 55,
+        "first_sub_in": "Ferran Torres (FC Barcelona)",
+        "first_sub_out": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_goals": 2
+      }
+    },
+    {
+      "mote": "Tobigol",
+      "prediction": {
+        "champion": "España",
+        "home_goals_90": 2,
+        "away_goals_90": 1,
+        "decided_in": 90,
+        "half_time_result": "Empate",
+        "total_goals": 3,
+        "corners": 6,
+        "yellow_cards": 4,
+        "offsides": 4,
+        "more_possession": "España",
+        "penalty": "No",
+        "red_card": "No",
+        "mvp": "Mikel Oyarzabal (Real Sociedad de Fútbol)"
+      },
+      "spain": {
+        "first_goal_scorer": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "first_assist": "Dani Olmo (FC Barcelona)",
+        "first_goal_minute": 68,
+        "first_sub_in": "Ferran Torres (FC Barcelona)",
+        "first_sub_out": "Mikel Oyarzabal (Real Sociedad de Fútbol)",
+        "spain_goals": 2
+      }
+    }
+  ]
+}

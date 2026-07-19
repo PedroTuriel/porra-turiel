@@ -34,6 +34,10 @@ SF_DIR = DATA_DIR / "semifinales"
 SF_LEADERBOARD_FILE = SF_DIR / "leaderboard_semifinales.json"
 SF_RESULTS_FILE = SF_DIR / "data.json"
 
+# Final, dinamico
+FINAL_DIR = DATA_DIR / "final"
+FINAL_LEADERBOARD_FILE = FINAL_DIR / "leaderboard_final.json"
+
 
 TEAM_ES = {
     "Mexico": "México",
@@ -339,6 +343,16 @@ def enrich_sf_leaderboard(leaderboard: List[Dict[str, Any]], sf_results: Dict[st
     return leaderboard
 
 
+def enrich_final_leaderboard(leaderboard: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    for idx, row in enumerate(leaderboard, start=1):
+        row.setdefault("position", idx)
+        row["display_name"] = row.get("participant") or row.get("name") or "Sin nombre"
+        row.setdefault("match_points", 0)
+        row.setdefault("spain_points", 0)
+        row.setdefault("total_points", row.get("match_points", 0) + row.get("spain_points", 0))
+    return leaderboard
+
+
 def build_app_data() -> Dict[str, Any]:
     group_results = read_json(GROUP_STAGE_RESULTS_FILE, {"ranking": []})
     group_standings = read_json(GROUP_STAGE_STANDINGS_FILE, {"groups": {}})
@@ -355,9 +369,15 @@ def build_app_data() -> Dict[str, Any]:
     sf_leaderboard = read_json(SF_LEADERBOARD_FILE, [])
     sf_results = read_json(SF_RESULTS_FILE, {"round": "SF", "spain": {}, "matches": []})
 
+    final_leaderboard = read_json(FINAL_LEADERBOARD_FILE, [])
+
     generated_at = datetime.now().strftime("%d/%m/%Y %H:%M")
 
     return {
+        "final": {
+            "leaderboard": enrich_final_leaderboard(final_leaderboard),
+            "results": {"generated_at": generated_at},
+        },
         "group_stage": {
             "results": enrich_group_stage_leaderboard(group_results),
             "standings": enrich_standings(group_standings),
@@ -702,10 +722,10 @@ def generate_html(app_data: Dict[str, Any]) -> str:
       <div class="hero-card">
         <div class="eyebrow">Mundial 2026</div>
         <h1>La Porra<br>Turiel 2026</h1>
-        <div class="subtitle">Semifinales</div>
+        <div class="subtitle">La Gran Final</div>
         <div class="hero-stats">
           <div class="stat"><strong id="statParticipants">0</strong><span>Participantes</span></div>
-          <div class="stat"><strong id="statLeader">-</strong><span>Líder semifinales</span></div>
+          <div class="stat"><strong id="statLeader">-</strong><span>Líder de la final</span></div>
           <div class="stat"><strong id="statUpdated">-</strong><span>Última actualización</span></div>
         </div>
       </div>
@@ -714,7 +734,8 @@ def generate_html(app_data: Dict[str, Any]) -> str:
 
   <div class="tabs-bar">
     <div class="container tabs-inner">
-      <button class="tab-button active" data-tab="sfTab">Semifinales</button>
+      <button class="tab-button active" data-tab="finalTab">🏆 Final</button>
+       <button class="tab-button" data-tab="sfTab">Semifinales</button>
       <button class="tab-button" data-tab="qfTab">Cuartos</button>
       <button class="tab-button" data-tab="r16Tab">Octavos</button>
       <button class="tab-button" data-tab="r32Tab">Dieciseisavos</button>
@@ -723,7 +744,40 @@ def generate_html(app_data: Dict[str, Any]) -> str:
   </div>
 
   <main>
-    <div id="sfTab" class="tab-panel active">
+    <div id="finalTab" class="tab-panel active">
+      <section id="finalClasificacion">
+        <div class="container">
+          <div class="section-title">
+            <h2>Clasificación final</h2>
+            <span class="pill">Resultado definitivo</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Posición</th><th>Participante</th><th>Total</th><th>Partido</th><th>España</th></tr>
+              </thead>
+              <tbody id="finalRankingTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="finalDetalle">
+        <div class="container">
+          <div class="section-title">
+            <h2>Detalle de la final</h2>
+            <span class="pill">Puntuación definitiva</span>
+          </div>
+          <div class="selector-box"><select id="finalParticipantSelect"></select></div>
+          <div class="detail-layout">
+            <aside class="profile-card" id="finalParticipantSummary"></aside>
+            <div id="finalParticipantBreakdown" class="cards-grid"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="sfTab" class="tab-panel">
       <section id="sfClasificacion">
         <div class="container">
           <div class="section-title">
@@ -1012,10 +1066,60 @@ def generate_html(app_data: Dict[str, Any]) -> str:
     }}
 
     function initHero() {{
-      const ranking = APP_DATA.sf.leaderboard || [];
+      const ranking = APP_DATA.final.leaderboard || [];
       document.getElementById("statParticipants").textContent = ranking.length;
       document.getElementById("statLeader").textContent = ranking[0]?.display_name || "-";
-      document.getElementById("statUpdated").textContent = APP_DATA.sf.results?.generated_at || APP_DATA.qf.results?.generated_at || APP_DATA.r16.results?.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
+      document.getElementById("statUpdated").textContent = APP_DATA.final.results?.generated_at || APP_DATA.sf.results?.generated_at || APP_DATA.qf.results?.generated_at || APP_DATA.r16.results?.generated_at || APP_DATA.r32.results?.generated_at || APP_DATA.group_stage.results?.generated_at || "-";
+    }}
+
+
+    function renderFinalRanking() {{
+      const tbody = document.getElementById("finalRankingTable");
+      const ranking = APP_DATA.final.leaderboard || [];
+      tbody.innerHTML = ranking.map((p, index) => `
+        <tr>
+          <td><strong>${{medal(p.position || index + 1)}}</strong></td>
+          <td><strong>${{escapeHtml(p.display_name)}}</strong></td>
+          <td><strong>${{pts(p.total_points)}}</strong></td>
+          <td>${{pts(p.match_points)}}</td>
+          <td>${{pts(p.spain_points)}}</td>
+        </tr>
+      `).join("");
+    }}
+
+    function renderFinalSelector() {{
+      const select = document.getElementById("finalParticipantSelect");
+      const ranking = APP_DATA.final.leaderboard || [];
+      select.innerHTML = ranking.map((p, index) => `<option value="${{index}}">${{p.position || index + 1}}. ${{escapeHtml(p.display_name)}} - ${{pts(p.total_points)}}</option>`).join("");
+      select.addEventListener("change", () => renderFinalDetail(Number(select.value)));
+      if (ranking.length) renderFinalDetail(0);
+    }}
+
+    function renderFinalDetail(index) {{
+      const participant = (APP_DATA.final.leaderboard || [])[index];
+      if (!participant) return;
+
+      const summary = document.getElementById("finalParticipantSummary");
+      const breakdown = document.getElementById("finalParticipantBreakdown");
+
+      summary.innerHTML = `
+        <h3>${{escapeHtml(participant.display_name)}}</h3>
+        <div class="pill">Puesto ${{participant.position}}</div>
+        <div class="big-score">${{participant.total_points}} pts</div>
+        <div class="breakdown"><span>Partido: ${{participant.match_points}}</span><span>España: ${{participant.spain_points}}</span></div>
+        <hr style="border-color: rgba(255,255,255,.08); margin: 18px 0;" />
+        <h4 style="color: var(--gold2); margin-bottom: 8px;">Resultado final</h4>
+        <p class="mini-line">${{participant.position === 1 ? "🏆 Campeón de la Porra Turiel 2026" : "🥈 Subcampeón de la Porra Turiel 2026"}}</p>
+      `;
+
+      breakdown.innerHTML = `
+        <article class="card">
+          <header><h4>Puntuación de la final</h4><span class="badge">${{participant.total_points}} pts</span></header>
+          <p class="mini-line"><b>Puntos del partido:</b> ${{participant.match_points}}</p>
+          <p class="mini-line"><b>Puntos de España:</b> ${{participant.spain_points}}</p>
+          <p class="mini-line"><b>Total:</b> ${{participant.total_points}}</p>
+        </article>
+      `;
     }}
 
 
@@ -1422,6 +1526,8 @@ def generate_html(app_data: Dict[str, Any]) -> str:
 
     setupTabs();
     initHero();
+    renderFinalRanking();
+    renderFinalSelector();
     renderSFRanking();
     renderSFSelector();
     renderQFRanking();
